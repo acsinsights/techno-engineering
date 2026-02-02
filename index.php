@@ -27,14 +27,14 @@
                             multiple projects at a time. Fabrication, Erection, Mechanical Maintenance & More.</p>
                         <div class="button-area-banner" style="transition-delay: .7s;" data-sal="slide-up"
                             data-sal-duration="800" data-sal-delay="700">
-                            <a href="contact.html" class="tmp-btn btn-primary hover-icon-reverse">
+                            <a href="contact.php" class="tmp-btn btn-primary hover-icon-reverse">
                                 <span class="icon-reverse-wrapper">
                                     <span class="btn-text">Get a Quote</span>
                                     <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                     <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                 </span>
                             </a>
-                            <a href="about.html" class="tmp-btn btn-border hover-icon-reverse">
+                            <a href="about.php" class="tmp-btn btn-border hover-icon-reverse">
                                 <span class="icon-reverse-wrapper">
                                     <span class="btn-text">Learn More</span>
                                     <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
@@ -252,7 +252,7 @@
                         </div>
                         <div class="about-btn-area mt--40 mt_md--30 mt_sm--30" data-sal="slide-up"
                             data-sal-duration="800" data-sal-delay="100">
-                            <a href="about.html" class="tmp-btn btn-primary hover-icon-reverse" data-sal="slide-up"
+                            <a href="about.php" class="tmp-btn btn-primary hover-icon-reverse" data-sal="slide-up"
                                 data-sal-duration="800" data-sal-delay="300">
                                 <span class="icon-reverse-wrapper">
                                     <span class="btn-text">Explore More</span>
@@ -290,7 +290,7 @@
                                 Public & Private sector undertakings.</p>
                             <div class="service-btn-area mt--30" data-sal="slide-up" data-sal-duration="800"
                                 data-sal-delay="600">
-                                <a href="service.html" class="tmp-btn btn-primary hover-icon-reverse"
+                                <a href="service.php" class="tmp-btn btn-primary hover-icon-reverse"
                                     data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
                                     <span class="icon-reverse-wrapper">
                                         <span class="btn-text">View All</span>
@@ -311,12 +311,12 @@
                                     <div class="icon">
                                         <img src="assets/images/service/icon/01.svg" alt="">
                                     </div>
-                                    <h3 class="heading-title"><a href="service-details.html">Fabrication & Erection</a>
+                                    <h3 class="heading-title"><a href="service.php#fabrication-erection">Fabrication & Erection</a>
                                     </h3>
                                     <p class="desc">Heavy Steel Structures fabrication for Power Plants, Steel Plants,
                                         Refineries & Nuclear Plants.</p>
                                     <div class="service-btn-area">
-                                        <a href="service-details.html"
+                                        <a href="service.php#fabrication-erection"
                                             class="service-btn text-btn btn-arrow hover-moving-primary">Know More <i
                                                 class="fal fa-arrow-right"></i></a>
                                     </div>
@@ -328,12 +328,12 @@
                                     <div class="icon">
                                         <img src="assets/images/service/icon/02.svg" alt="">
                                     </div>
-                                    <h3 class="heading-title"><a href="service-details.html">Mechanical Maintenance</a>
+                                    <h3 class="heading-title"><a href="service.php#mechanical-maintenance">Mechanical Maintenance</a>
                                     </h3>
                                     <p class="desc">Maintenance of Heat Exchangers, Vessels, Columns, Filters, Heaters,
                                         Dryers & Furnaces.</p>
                                     <div class="service-btn-area">
-                                        <a href="service-details.html"
+                                        <a href="service.php#mechanical-maintenance"
                                             class="service-btn text-btn btn-arrow hover-moving-primary">Know More <i
                                                 class="fal fa-arrow-right"></i></a>
                                     </div>
@@ -345,11 +345,11 @@
                                     <div class="icon">
                                         <img src="assets/images/service/icon/03.svg" alt="">
                                     </div>
-                                    <h3 class="heading-title"><a href="service-details.html">Roofing & Cladding</a></h3>
+                                    <h3 class="heading-title"><a href="service.php#roofing-cladding">Roofing & Cladding</a></h3>
                                     <p class="desc">Wide range of Roofing & Wall Cladding products including Color
                                         Coated Profile Sheets.</p>
                                     <div class="service-btn-area">
-                                        <a href="service-details.html"
+                                        <a href="service.php#roofing-cladding"
                                             class="service-btn text-btn btn-arrow hover-moving-primary">Know More <i
                                                 class="fal fa-arrow-right"></i></a>
                                     </div>
@@ -361,12 +361,12 @@
                                     <div class="icon">
                                         <img src="assets/images/service/icon/04.svg" alt="">
                                     </div>
-                                    <h3 class="heading-title"><a href="service-details.html">Blasting & Painting</a>
+                                    <h3 class="heading-title"><a href="service.php#blasting-painting">Blasting & Painting</a>
                                     </h3>
                                     <p class="desc">Copper-slag, Grit & Sand Blasting, Epoxy Brush Painting, Airless
                                         Spray Painting & Guniting.</p>
                                     <div class="service-btn-area">
-                                        <a href="service-details.html"
+                                        <a href="service.php#blasting-painting"
                                             class="service-btn text-btn btn-arrow hover-moving-primary">Know More <i
                                                 class="fal fa-arrow-right"></i></a>
                                     </div>
@@ -378,11 +378,11 @@
                                     <div class="icon">
                                         <img src="assets/images/service/icon/05.svg" alt="">
                                     </div>
-                                    <h3 class="heading-title"><a href="service-details.html">Labour Supply</a></h3>
+                                    <h3 class="heading-title"><a href="service.php#labour-supply">Labour Supply</a></h3>
                                     <p class="desc">Skilled contractor labour for construction & industries with years
                                         of experience.</p>
                                     <div class="service-btn-area">
-                                        <a href="service-details.html"
+                                        <a href="service.php#labour-supply"
                                             class="service-btn text-btn btn-arrow hover-moving-primary">Know More <i
                                                 class="fal fa-arrow-right"></i></a>
                                     </div>
@@ -394,11 +394,11 @@
                                     <div class="icon">
                                         <img src="assets/images/service/icon/06.svg" alt="">
                                     </div>
-                                    <h3 class="heading-title"><a href="service-details.html">HRT Fabrication</a></h3>
+                                    <h3 class="heading-title"><a href="service.php#mechanical-fabrication-hrt">HRT Fabrication</a></h3>
                                     <p class="desc">High Rate Thickener components - Support Structures, Discharge
                                         Cones, Tank Shells & more.</p>
                                     <div class="service-btn-area">
-                                        <a href="service-details.html"
+                                        <a href="service.php#mechanical-fabrication-hrt"
                                             class="service-btn text-btn btn-arrow hover-moving-primary">Know More <i
                                                 class="fal fa-arrow-right"></i></a>
                                     </div>
@@ -511,7 +511,7 @@
                             <div class="content-area">
                                 <p class="tag">Steel Plant</p>
                                 <h3 class="title"><a href="portfolio-details.html">AM/NS Projects, Hazira</a></h3>
-                                <a href="service-details.html"
+                                <a href="service.php"
                                     class="service-btn text-btn btn-arrow hover-moving-primary">Know More <i
                                         class="fal fa-arrow-right"></i></a>
                             </div>
@@ -527,7 +527,7 @@
                             <div class="content-area">
                                 <p class="tag">Steel Industry</p>
                                 <h3 class="title"><a href="portfolio-details.html">JSW Steel</a></h3>
-                                <a href="service-details.html"
+                                <a href="service.php"
                                     class="service-btn text-btn btn-arrow hover-moving-primary">Know More <i
                                         class="fal fa-arrow-right"></i></a>
                             </div>
@@ -543,7 +543,7 @@
                             <div class="content-area">
                                 <p class="tag">Power Plant</p>
                                 <h3 class="title"><a href="portfolio-details.html">Jindal Steel And Power Ltd.</a></h3>
-                                <a href="service-details.html"
+                                <a href="service.php"
                                     class="service-btn text-btn btn-arrow hover-moving-primary">Know More <i
                                         class="fal fa-arrow-right"></i></a>
                             </div>
@@ -559,7 +559,7 @@
                             <div class="content-area">
                                 <p class="tag">Steel Plant</p>
                                 <h3 class="title"><a href="portfolio-details.html">Essar Steel Ltd., Hazira</a></h3>
-                                <a href="service-details.html"
+                                <a href="service.php"
                                     class="service-btn text-btn btn-arrow hover-moving-primary">Know More <i
                                         class="fal fa-arrow-right"></i></a>
                             </div>
@@ -575,7 +575,7 @@
                             <div class="content-area">
                                 <p class="tag">Defence</p>
                                 <h3 class="title"><a href="portfolio-details.html">L&T Defence</a></h3>
-                                <a href="service-details.html"
+                                <a href="service.php"
                                     class="service-btn text-btn btn-arrow hover-moving-primary">Know More <i
                                         class="fal fa-arrow-right"></i></a>
                             </div>
@@ -591,7 +591,7 @@
                             <div class="content-area">
                                 <p class="tag">Infrastructure</p>
                                 <h3 class="title"><a href="portfolio-details.html">Larsen & Toubro</a></h3>
-                                <a href="service-details.html"
+                                <a href="service.php"
                                     class="service-btn text-btn btn-arrow hover-moving-primary">Know More <i
                                         class="fal fa-arrow-right"></i></a>
                             </div>
@@ -656,7 +656,7 @@
                             </a>
                         </div>
                         <div class="service-btn-area" data-sal="slide-up" data-sal-duration="800" data-sal-delay="500">
-                            <a href="contact.html" class="tmp-btn btn-primary hover-icon-reverse">
+                            <a href="contact.php" class="tmp-btn btn-primary hover-icon-reverse">
                                 <span class="icon-reverse-wrapper">
                                     <span class="btn-text">Book Free Survey</span>
                                     <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>

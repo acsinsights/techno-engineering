@@ -216,7 +216,7 @@
                                 Steel</li>
                             <li><i class="fa-solid fa-check-circle"></i> Static & Rotary Equipment Erection</li>
                         </ul>
-                        <a href="contact.html" class="service-btn-zigzag">Get Quote <i
+                        <a href="contact.php" class="service-btn-zigzag">Get Quote <i
                                 class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
@@ -247,7 +247,7 @@
                             <li><i class="fa-solid fa-check-circle"></i> Heaters, Dryers & Furnace Maintenance</li>
                             <li><i class="fa-solid fa-check-circle"></i> Public & Private Sector Services</li>
                         </ul>
-                        <a href="contact.html" class="service-btn-zigzag">Get Quote <i
+                        <a href="contact.php" class="service-btn-zigzag">Get Quote <i
                                 class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
@@ -277,7 +277,7 @@
                             <li><i class="fa-solid fa-check-circle"></i> Turnkey Roofing Projects</li>
                             <li><i class="fa-solid fa-check-circle"></i> Wall Cladding Products</li>
                         </ul>
-                        <a href="contact.html" class="service-btn-zigzag">Get Quote <i
+                        <a href="contact.php" class="service-btn-zigzag">Get Quote <i
                                 class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
@@ -307,7 +307,7 @@
                             <li><i class="fa-solid fa-check-circle"></i> Airless Spray Painting</li>
                             <li><i class="fa-solid fa-check-circle"></i> Guniting & Shotcreting Services</li>
                         </ul>
-                        <a href="contact.html" class="service-btn-zigzag">Get Quote <i
+                        <a href="contact.php" class="service-btn-zigzag">Get Quote <i
                                 class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
@@ -338,7 +338,7 @@
                             <li><i class="fa-solid fa-check-circle"></i> Construction Industry Labour</li>
                             <li><i class="fa-solid fa-check-circle"></i> Industry Leading Prices</li>
                         </ul>
-                        <a href="contact.html" class="service-btn-zigzag">Get Quote <i
+                        <a href="contact.php" class="service-btn-zigzag">Get Quote <i
                                 class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
@@ -369,7 +369,7 @@
                             <li><i class="fa-solid fa-check-circle"></i> Center Columns & Torque Cages</li>
                             <li><i class="fa-solid fa-check-circle"></i> Feedwells, Scrapers & Drives</li>
                         </ul>
-                        <a href="contact.html" class="service-btn-zigzag">Get Quote <i
+                        <a href="contact.php" class="service-btn-zigzag">Get Quote <i
                                 class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>

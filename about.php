@@ -15,12 +15,13 @@
                         About Techno Engineering Pvt. Ltd.
                     </h1>
                     <p class="desc" data-sal="slide-up-large" data-sal-duration="1000" data-sal-delay="500">
-                        Techno Engineering Private Limited was founded at Surat by D.K.Singh, who is also the Director
+                        Techno Engineering Private Limited was founded at Surat by rajesh kumar, who is also the
+                        Director
                         of the company. The Company was registered under companies act-1956 as Private limited company
                         from 7th March 2012 with the name SANJAY INFRAMECH PVT. LTD., before that the company was
                         functioning under the name "SANJAY ENGINEERING CONSTRUCTION" as Proprietorship since 1996.
                     </p>
-                    <a href="contact.html" class="tmp-btn btn-primary hover-icon-reverse" data-sal="slide-up-large"
+                    <a href="contact.php" class="tmp-btn btn-primary hover-icon-reverse" data-sal="slide-up-large"
                         data-sal-duration="1000" data-sal-delay="600">
                         <span class="icon-reverse-wrapper">
                             <span class="btn-text">Get Started</span>
@@ -87,9 +88,9 @@
                                 <p class="desc">Years of Experience</p>
                             </div>
                             <div class="card-bottom">
-                                <h4 class="title">D.K. Singh</h4>
+                                <h4 class="title">rajesh kumar</h4>
                                 <p class="designation">Director, Techno Engineering</p>
-                                <p class="signature">D.K. Singh</p>
+                                <p class="signature">rajesh kumar</p>
                             </div>
                         </div>
                     </div>
@@ -242,7 +243,7 @@
                             </div>
                         </div>
                         <div class="about-btn-area mt--30">
-                            <a href="contact.html" class="tmp-btn btn-primary hover-icon-reverse">
+                            <a href="contact.php" class="tmp-btn btn-primary hover-icon-reverse">
                                 <span class="icon-reverse-wrapper">
                                     <span class="btn-text">Contact Us</span>
                                     <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
@@ -350,13 +351,13 @@
                     <div class="service-wrapper-9 d-flex align-items-center justify-content-between">
                         <div class="content-area">
                             <div class="icon"><img src="assets/images/service/icon/33.svg" alt=""></div>
-                            <h3 class="heading-title"><a href="service-details.html">Fabrication & Erection</a></h3>
+                            <h3 class="heading-title"><a href="service.php">Fabrication & Erection</a></h3>
                             <p class="desc">Expert fabrication and erection services for power plants, steel plants,
                                 refineries and nuclear facilities.</p>
                         </div>
                         <div class="image-area"><img src="assets/images/service/35.webp" width="242" alt=""></div>
                         <img src="assets/images/service/icon/shape.svg" alt="" class="shape">
-                        <a href="service-details.html" class="over_link"></a>
+                        <a href="service.php" class="over_link"></a>
                     </div>
                 </div>
                 <div class="col-lg-6" data-sal="slide-left" data-sal-duration="800" data-sal-delay="100">
@@ -364,25 +365,25 @@
                         <div class="image-area"><img src="assets/images/service/36.webp" width="242" alt=""></div>
                         <div class="content-area">
                             <div class="icon"><img src="assets/images/service/icon/34.svg" alt=""></div>
-                            <h3 class="heading-title"><a href="service-details.html">Mechanical Maintenance</a></h3>
+                            <h3 class="heading-title"><a href="service.php">Mechanical Maintenance</a></h3>
                             <p class="desc">Comprehensive mechanical maintenance and repair services for industrial
                                 equipment and structures.</p>
                         </div>
                         <img src="assets/images/service/icon/shape.svg" alt="" class="shape">
-                        <a href="service-details.html" class="over_link"></a>
+                        <a href="service.php" class="over_link"></a>
                     </div>
                 </div>
                 <div class="col-lg-6" data-sal="slide-right" data-sal-duration="800" data-sal-delay="300">
                     <div class="service-wrapper-9 d-flex align-items-center justify-content-between">
                         <div class="content-area">
                             <div class="icon"><img src="assets/images/service/icon/35.svg" alt=""></div>
-                            <h3 class="heading-title"><a href="service-details.html">Roofing & Cladding</a></h3>
+                            <h3 class="heading-title"><a href="service.php">Roofing & Cladding</a></h3>
                             <p class="desc">Professional roofing and cladding solutions for industrial buildings and
                                 infrastructure projects.</p>
                         </div>
                         <div class="image-area"><img src="assets/images/service/37.webp" width="242" alt=""></div>
                         <img src="assets/images/service/icon/shape.svg" alt="" class="shape">
-                        <a href="service-details.html" class="over_link"></a>
+                        <a href="service.php" class="over_link"></a>
                     </div>
                 </div>
                 <div class="col-lg-6" data-sal="slide-left" data-sal-duration="800" data-sal-delay="300">
@@ -390,12 +391,12 @@
                         <div class="image-area"><img src="assets/images/service/38.webp" width="242" alt=""></div>
                         <div class="content-area">
                             <div class="icon"><img src="assets/images/service/icon/36.svg" alt=""></div>
-                            <h3 class="heading-title"><a href="service-details.html">Blasting & Painting</a></h3>
+                            <h3 class="heading-title"><a href="service.php">Blasting & Painting</a></h3>
                             <p class="desc">Industrial blasting and painting services for corrosion protection and
                                 surface preparation.</p>
                         </div>
                         <img src="assets/images/service/icon/shape.svg" alt="" class="shape">
-                        <a href="service-details.html" class="over_link"></a>
+                        <a href="service.php" class="over_link"></a>
                     </div>
                 </div>
             </div>

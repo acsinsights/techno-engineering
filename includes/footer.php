@@ -12,7 +12,8 @@
             <div class="cta-area-inner">
                 <h3 class="cta-title">Partner With Industrial Excellence <br> Contact Us Today</h3>
                 <div class="cta-button-area">
-                    <a href="contact.php" class="tmp-btn btn-md" style="border: 2px solid #fff; color: #fff; background: transparent; transition: all 0.3s ease;">
+                    <a href="contact.php" class="tmp-btn btn-md"
+                        style="border: 2px solid #fff; color: #fff; background: transparent; transition: all 0.3s ease;">
                         GET A QUOTE <i class="fa-solid fa-arrow-right" style="margin-left: 8px;"></i>
                     </a>
                 </div>
@@ -145,17 +146,6 @@
                                             style="color: #a0a0a0;">hr@technoengg.com</a></p>
                                 </div>
                             </li>
-                            <li style="display: flex; gap: 15px;">
-                                <div class="icon"
-                                    style="width: 45px; height: 45px; border-radius: 50%; background: rgba(243, 117, 56, 0.15); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-                                    <i class="fa-solid fa-clock" style="color: #ed3237;"></i>
-                                </div>
-                                <div class="content">
-                                    <h5 style="color: #fff; font-size: 16px; margin-bottom: 5px;">Working Hours</h5>
-                                    <p style="color: #a0a0a0; margin: 0;">Mon - Sat: 9:00 AM - 6:00 PM</p>
-                                    <p style="color: #a0a0a0; margin: 0;">Sunday: Closed</p>
-                                </div>
-                            </li>
                         </ul>
                     </div>
                 </div>
@@ -201,7 +191,7 @@
                 Plants with experienced engineers and skilled manpower.</p>
             <div class="footer">
                 <h4 class="title">Got a project in mind?</h4>
-                <a href="contact.html" class="tmp-btn btn-seconday">Let's talk</a>
+                <a href="contact.php" class="tmp-btn btn-seconday">Let's talk</a>
             </div>
         </div>
     </div>
@@ -211,7 +201,8 @@
         <!-- Mobile Logo -->
         <div class="mobile-logo mb--30" style="padding: 0 20px;">
             <a href="index.php">
-                <img src="assets/images/logo/techno-engineering.svg" alt="Techno Engineering Logo" style="max-width: 180px;">
+                <img src="assets/images/logo/techno-engineering.svg" alt="Techno Engineering Logo"
+                    style="max-width: 180px;">
             </a>
         </div>
 
@@ -223,21 +214,24 @@
                 <li style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #eee;">
                     <a class="mobile-menu-link" href="about.php" style="font-size: 16px; font-weight: 500;">About Us</a>
                 </li>
-                <li class="has-droupdown" style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #eee;">
+                <li class="has-droupdown"
+                    style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #eee;">
                     <a href="#" class="main" style="font-size: 16px; font-weight: 500;">Services</a>
                     <ul class="submenu">
                         <li><a class="mobile-menu-link" href="service.php">All Services</a></li>
                     </ul>
                 </li>
                 <li style="margin-bottom: 15px;">
-                    <a class="mobile-menu-link" href="contact.php" style="font-size: 16px; font-weight: 500;">Contact Us</a>
+                    <a class="mobile-menu-link" href="contact.php" style="font-size: 16px; font-weight: 500;">Contact
+                        Us</a>
                 </li>
             </ul>
         </nav>
 
         <!-- Contact Us Button -->
         <div class="mobile-contact-btn" style="padding: 20px 20px 30px;">
-            <a href="contact.php" class="tmp-btn btn-primary" style="display: block; text-align: center; padding: 15px 30px; background: #ed3237; color: #fff; border-radius: 5px; font-weight: 600;">
+            <a href="contact.php" class="tmp-btn btn-primary"
+                style="display: block; text-align: center; padding: 15px 30px; background: #ed3237; color: #fff; border-radius: 5px; font-weight: 600;">
                 Contact Us <i class="fa-solid fa-arrow-right" style="margin-left: 8px;"></i>
             </a>
         </div>
@@ -323,8 +317,8 @@
 <script src="assets/js/main.js" defer></script>
 
 <script>
-    // Set current year
-    document.getElementById('year').textContent = new Date().getFullYear();
+// Set current year
+document.getElementById('year').textContent = new Date().getFullYear();
 </script>
 
 </body>

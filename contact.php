@@ -8,8 +8,7 @@
                 <div class="breadcrumb-inner ptb--100 ptb_sm--100 text-center">
                     <div class="watermark">Contact Us</div>
                     <h1 class="title">Contact Us</h1>
-                    <p class="desc">At Constx, we take pride in our extensive portfolio of successfully completed
-                        projects. Our portfolio showcases a diverse.</p>
+                    <p class="desc">At Techno Engineering, we take pride in delivering quality industrial services. Reach out to us for your fabrication, erection and maintenance needs.</p>
                     <div class="meta">
                         <a href="index.php" class="prev">Home</a>
                         <span><i class="fa-regular fa-chevrons-right"></i></span>
@@ -30,8 +29,8 @@
                 <h2 class="section-title">Connect with Us for <br> Immediate Assistance</h2>
             </div>
             <p class="desc">
-                At Constx, customer satisfaction is our top priority. Our dedicated team is committed to providing
-                prompt and courteous assistance to address your needs. Whether you have a question about our products.
+                At Techno Engineering, customer satisfaction is our top priority. Our dedicated team is committed to providing
+                prompt and professional assistance for all your industrial needs.
             </p>
         </div>
     </div>
@@ -48,23 +47,23 @@
                     <div class="get-in-touch-wrapper">
                         <div class="icons"><i class="fa-regular fa-headphones"></i></div>
                         <h3 class="title">Contact Mobile Number</h3>
-                        <p><a class="hover-moving-primary" href="tel:+004409457777323">+004409457777323</a></p>
-                        <p><a class="hover-moving-primary" href="tel:+034566677777356">+034566677777356</a></p>
+                        <p><a class="hover-moving-primary" href="tel:+911234567890">(+91) 12345 67890</a></p>
+                        <p><a class="hover-moving-primary" href="tel:+919876543210">(+91) 98765 43210</a></p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6" data-sal="slide-right" data-sal-duration="800" data-sal-delay="500">
                     <div class="get-in-touch-wrapper">
                         <div class="icons"><i class="fa-solid fa-envelope"></i></div>
                         <h3 class="title">Our Email Address</h3>
-                        <p><a class="hover-moving-primary" href="mail-to:constx@gmail.com">constx@gmail.com</a></p>
-                        <p><a class="hover-moving-primary" href="mail-to:support@gmail.com">support@gmail.com</a></p>
+                        <p><a class="hover-moving-primary" href="mailto:info@technoengg.com">info@technoengg.com</a></p>
+                        <p><a class="hover-moving-primary" href="mailto:hr@technoengg.com">hr@technoengg.com</a></p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6" data-sal="slide-right" data-sal-duration="800" data-sal-delay="700">
                     <div class="get-in-touch-wrapper">
                         <div class="icons"><i class="fa-regular fa-location-dot"></i></div>
                         <h3 class="title">Head Office Location</h3>
-                        <p>Willow Creek Road (Route 87), <br> Pinecrest, Montana</p>
+                        <p>123, Industrial Area, Phase-2, <br> Sector 45, Noida - 201301, UP</p>
                     </div>
                 </div>
 
@@ -82,8 +81,7 @@
                 <div class="col-lg-6">
                     <div class="right-content-area">
                         <h2 class="title">Say Hello!</h2>
-                        <p class="desc mb--20">Thank you for your interest in solar energy! Whether you're curious about
-                            transitioning to solar power for your home or business.</p>
+                        <p class="desc mb--20">Thank you for your interest in Techno Engineering! Whether you need fabrication, erection, mechanical maintenance or industrial services, we are here to help.</p>
                         <div class="image-area">
                             <img src="assets/images/contact/07.webp" alt="">
                         </div>
