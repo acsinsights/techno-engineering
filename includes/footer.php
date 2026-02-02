@@ -12,8 +12,8 @@
             <div class="cta-area-inner">
                 <h3 class="cta-title">Partner With Industrial Excellence <br> Contact Us Today</h3>
                 <div class="cta-button-area">
-                    <a href="contact.php" class="tmp-btn btn-primary bg-white button-flip btn-md">
-                        <span data-text="GET A QUOTE">GET A QUOTE</span>
+                    <a href="contact.php" class="tmp-btn btn-md" style="border: 2px solid #fff; color: #fff; background: transparent; transition: all 0.3s ease;">
+                        GET A QUOTE <i class="fa-solid fa-arrow-right" style="margin-left: 8px;"></i>
                     </a>
                 </div>
             </div>
@@ -30,7 +30,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="footer-widget">
                         <div class="logo mb--25">
-                            <a href="index-main.php"
+                            <a href="index.php"
                                 style="display: inline-block; background: #fff; padding: 0px 2px; border-radius: 8px;">
                                 <img src="assets/images/logo/techno-engineering.svg" alt="Techno Engineering Logo"
                                     style="width: 200px; height: auto;">
@@ -64,7 +64,7 @@
                         <h4 class="footer-title mb--30" style="color: #fff; font-size: 20px; font-weight: 600;">Quick
                             Links</h4>
                         <ul class="footer-links" style="list-style: none; padding: 0; margin: 0;">
-                            <li style="margin-bottom: 12px;"><a href="index-main.php" class="hover-moving-primary"
+                            <li style="margin-bottom: 12px;"><a href="index.php" class="hover-moving-primary"
                                     style="color: #a0a0a0;">Home</a></li>
                             <li style="margin-bottom: 12px;"><a href="about.php" class="hover-moving-primary"
                                     style="color: #a0a0a0;">About Us</a></li>
@@ -111,7 +111,7 @@
                             <li style="margin-bottom: 20px; display: flex; gap: 15px;">
                                 <div class="icon"
                                     style="width: 45px; height: 45px; border-radius: 50%; background: rgba(243, 117, 56, 0.15); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-                                    <i class="fa-solid fa-location-dot" style="color: #f37538;"></i>
+                                    <i class="fa-solid fa-location-dot" style="color: #ed3237;"></i>
                                 </div>
                                 <div class="content">
                                     <h5 style="color: #fff; font-size: 16px; margin-bottom: 5px;">Head Office</h5>
@@ -122,7 +122,7 @@
                             <li style="margin-bottom: 20px; display: flex; gap: 15px;">
                                 <div class="icon"
                                     style="width: 45px; height: 45px; border-radius: 50%; background: rgba(243, 117, 56, 0.15); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-                                    <i class="fa-solid fa-phone" style="color: #f37538;"></i>
+                                    <i class="fa-solid fa-phone" style="color: #ed3237;"></i>
                                 </div>
                                 <div class="content">
                                     <h5 style="color: #fff; font-size: 16px; margin-bottom: 5px;">Phone Number</h5>
@@ -135,7 +135,7 @@
                             <li style="margin-bottom: 20px; display: flex; gap: 15px;">
                                 <div class="icon"
                                     style="width: 45px; height: 45px; border-radius: 50%; background: rgba(243, 117, 56, 0.15); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-                                    <i class="fa-solid fa-envelope" style="color: #f37538;"></i>
+                                    <i class="fa-solid fa-envelope" style="color: #ed3237;"></i>
                                 </div>
                                 <div class="content">
                                     <h5 style="color: #fff; font-size: 16px; margin-bottom: 5px;">Email Address</h5>
@@ -148,7 +148,7 @@
                             <li style="display: flex; gap: 15px;">
                                 <div class="icon"
                                     style="width: 45px; height: 45px; border-radius: 50%; background: rgba(243, 117, 56, 0.15); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
-                                    <i class="fa-solid fa-clock" style="color: #f37538;"></i>
+                                    <i class="fa-solid fa-clock" style="color: #ed3237;"></i>
                                 </div>
                                 <div class="content">
                                     <h5 style="color: #fff; font-size: 16px; margin-bottom: 5px;">Working Hours</h5>
@@ -169,7 +169,7 @@
                 <div class="col-md-6">
                     <div class="wrapper text-start">
                         <p style="color: #a0a0a0; margin: 0;">© Copyright <span id="year"></span> <a
-                                class="hover-moving-primary" target="_blank" href="#" style="color: #f37538;">Techno
+                                class="hover-moving-primary" target="_blank" href="#" style="color: #ed3237;">Techno
                                 Engineering Pvt. Ltd.</a> All Rights Reserved.</p>
                     </div>
                 </div>
@@ -208,59 +208,41 @@
 
     <!-- Mobile Menu -->
     <div class="mobile-menu d-block d-xl-none">
-        <nav class="nav-main mainmenu-nav mt--30">
-            <ul class="mainmenu" id="mobile-menu-active">
-                <li class="has-droupdown">
-                    <a href="#" class="main">Home</a>
+        <!-- Mobile Logo -->
+        <div class="mobile-logo mb--30" style="padding: 0 20px;">
+            <a href="index.php">
+                <img src="assets/images/logo/techno-engineering.svg" alt="Techno Engineering Logo" style="max-width: 180px;">
+            </a>
+        </div>
+
+        <nav class="nav-main mainmenu-nav">
+            <ul class="mainmenu" id="mobile-menu-active" style="padding: 0 20px;">
+                <li style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #eee;">
+                    <a class="mobile-menu-link" href="index.php" style="font-size: 16px; font-weight: 500;">Home</a>
+                </li>
+                <li style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #eee;">
+                    <a class="mobile-menu-link" href="about.php" style="font-size: 16px; font-weight: 500;">About Us</a>
+                </li>
+                <li class="has-droupdown" style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #eee;">
+                    <a href="#" class="main" style="font-size: 16px; font-weight: 500;">Services</a>
                     <ul class="submenu">
-                        <li><a class="mobile-menu-link" href="index.html">Home</a></li>
+                        <li><a class="mobile-menu-link" href="service.php">All Services</a></li>
                     </ul>
                 </li>
-                <li class="has-droupdown">
-                    <a href="#" class="main">Pages</a>
-                    <ul class="submenu">
-                        <li><a class="mobile-menu-link" href="about.html">About</a></li>
-                        <li><a class="mobile-menu-link" href="service.html">Service</a></li>
-                        <li><a class="mobile-menu-link" href="pricing.html">Pricing</a></li>
-                        <li><a class="mobile-menu-link" href="gallery.html">Gallery</a></li>
-                        <li><a class="mobile-menu-link" href="career.html">Career</a></li>
-                        <li><a class="mobile-menu-link" href="team.html">Team</a></li>
-                        <li><a class="mobile-menu-link" href="faq.html">FAQ</a></li>
-                    </ul>
+                <li style="margin-bottom: 15px;">
+                    <a class="mobile-menu-link" href="contact.php" style="font-size: 16px; font-weight: 500;">Contact Us</a>
                 </li>
-                <li class="has-droupdown">
-                    <a href="#" class="main">Services</a>
-                    <ul class="submenu">
-                        <li><a class="mobile-menu-link" href="service.html">All Services</a></li>
-                        <li><a class="mobile-menu-link" href="service-details.html">Service Details</a></li>
-                    </ul>
-                </li>
-                <li class="has-droupdown">
-                    <a href="#" class="main">Projects</a>
-                    <ul class="submenu">
-                        <li><a class="mobile-menu-link" href="portfolio.html">All Projects</a></li>
-                        <li><a class="mobile-menu-link" href="portfolio-details.html">Project Details</a></li>
-                    </ul>
-                </li>
-                <li class="has-droupdown">
-                    <a href="#" class="main">Shop</a>
-                    <ul class="submenu">
-                        <li><a class="mobile-menu-link" href="shop.html">Shop</a></li>
-                        <li><a class="mobile-menu-link" href="cart.html">Cart</a></li>
-                        <li><a class="mobile-menu-link" href="checkout.html">Checkout</a></li>
-                    </ul>
-                </li>
-                <li class="has-droupdown">
-                    <a href="#" class="main">Blog</a>
-                    <ul class="submenu">
-                        <li><a class="mobile-menu-link" href="blog.html">Blog</a></li>
-                        <li><a class="mobile-menu-link" href="blog-details.html">Blog Details</a></li>
-                    </ul>
-                </li>
-                <li><a class="mobile-menu-link" href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <div class="social-wrapper-one">
+
+        <!-- Contact Us Button -->
+        <div class="mobile-contact-btn" style="padding: 20px 20px 30px;">
+            <a href="contact.php" class="tmp-btn btn-primary" style="display: block; text-align: center; padding: 15px 30px; background: #ed3237; color: #fff; border-radius: 5px; font-weight: 600;">
+                Contact Us <i class="fa-solid fa-arrow-right" style="margin-left: 8px;"></i>
+            </a>
+        </div>
+
+        <div class="social-wrapper-one" style="padding: 0 20px;">
             <ul>
                 <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
                 <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
@@ -341,8 +323,8 @@
 <script src="assets/js/main.js" defer></script>
 
 <script>
-// Set current year
-document.getElementById('year').textContent = new Date().getFullYear();
+    // Set current year
+    document.getElementById('year').textContent = new Date().getFullYear();
 </script>
 
 </body>

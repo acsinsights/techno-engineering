@@ -1,13 +1,13 @@
 <?php include 'includes/header.php'; ?>
 
 <!-- Breadcrumb Start -->
-<div class="bread-crumb-large-area tmp-section-gapBottom pt--80 pt_md--40 pt_sm--40">
+<div class="bread-crumb-large-area tmp-section-gapBottom pt--80 pt_md--40 pt_sm--40" style="margin-bottom: 5rem;">
     <div class="container">
         <div class="row align-items-center g-5">
             <div class="col-lg-6">
                 <div class="large-bread-crumb-left-content">
                     <div class="meta" data-sal="slide-up-large" data-sal-duration="1000" data-sal-delay="100">
-                        <a href="index-main.php" class="prev">Home</a>
+                        <a href="index.php" class="prev">Home</a>
                         <span><i class="fa-regular fa-chevron-right"></i></span>
                         <a href="#" class="next">About Us</a>
                     </div>

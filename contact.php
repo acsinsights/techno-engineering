@@ -11,7 +11,7 @@
                     <p class="desc">At Constx, we take pride in our extensive portfolio of successfully completed
                         projects. Our portfolio showcases a diverse.</p>
                     <div class="meta">
-                        <a href="index-main.php" class="prev">Home</a>
+                        <a href="index.php" class="prev">Home</a>
                         <span><i class="fa-regular fa-chevrons-right"></i></span>
                         <a href="#" class="next">Contact Us</a>
                     </div>

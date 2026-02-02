@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Sanjay Inframech Pvt. Ltd. - We undertake Fabrication & Erection of Power Plants, Steel Plants, Refineries and Nuclear Plants. Piping, Mechanical Maintenance, Roofing, Cladding, Blasting & Painting Services.">
+        content="Techno Engineering Pvt. Ltd. - We undertake Fabrication & Erection of Power Plants, Steel Plants, Refineries and Nuclear Plants. Piping, Mechanical Maintenance, Roofing, Cladding, Blasting & Painting Services.">
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.svg">
-    <title>Sanjay Inframech Pvt. Ltd. | Fabrication & Erection | Industrial Services</title>
+    <title>Techno Engineering Pvt. Ltd. | Fabrication & Erection | Industrial Services</title>
 
     <!-- CSS Files -->
     <link rel="preload" href="assets/css/plugins/fontawesome.css" as="style" onload="this.rel='stylesheet'">
@@ -190,6 +190,59 @@
                 min-height: 55px;
             }
         }
+
+        /* Override Primary Color to Red #ed3237 */
+        :root {
+            --color-primary: #ed3237 !important;
+            --color-primary-2: #ed3237 !important;
+            --color-secondary: #ed3237 !important;
+            --primary-600: #ed3237 !important;
+            --primary-700: #ed3237 !important;
+        }
+
+        .tmp-btn.btn-primary {
+            background: #ed3237 !important;
+        }
+
+        .tmp-btn.btn-primary::after {
+            background: #c9282d !important;
+        }
+
+        .tmp-btn.btn-border:hover {
+            background: #ed3237 !important;
+            border-color: #ed3237 !important;
+        }
+
+        .cta-button-area .tmp-btn.bg-white {
+            color: #ed3237 !important;
+        }
+
+        .cta-button-area .tmp-btn.bg-white:hover {
+            background: #ed3237 !important;
+            color: #fff !important;
+        }
+
+        /* CTA Button Hover Style */
+        .cta-button-area .tmp-btn:hover {
+            background: #fff !important;
+            color: #ed3237 !important;
+            border-color: #fff !important;
+        }
+
+        /* Footer Logo Mobile Responsive - Match Header Size */
+        @media (max-width: 768px) {
+            .tmp-footer-area .footer-widget .logo img {
+                width: 140px !important;
+                height: auto !important;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .tmp-footer-area .footer-widget .logo img {
+                width: 120px !important;
+                height: auto !important;
+            }
+        }
     </style>
 </head>
 
@@ -246,7 +299,7 @@
                         <div class="header-mid-one-wrapper">
                             <!-- Logo - Left Side -->
                             <div class="logo-area">
-                                <a href="index-main.php">
+                                <a href="index.php">
                                     <img src="assets/images/logo/techno-engineering.svg" alt="Techno Engineering Logo">
                                 </a>
                             </div>
@@ -257,7 +310,7 @@
                                 <div class="nav-area">
                                     <ul class="mainmenu">
                                         <li class="main-nav">
-                                            <a href="index-main.php">Home</a>
+                                            <a href="index.php">Home</a>
                                         </li>
                                         <li class="main-nav">
                                             <a href="about.php">About Us</a>
