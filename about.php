@@ -60,8 +60,8 @@
                 <p>Happy Customers</p>
             </div>
             <div class="content">
-                <h2 class="title"><span class="counter"><span class="odometer" data-count="100">00</span></span>+</h2>
-                <p>Expert Team</p>
+                <h2 class="title"><span class="counter"><span class="odometer" data-count="4.8">0</span></span><i class="fa-regular fa-star" style="margin-left: 5px;"></i></h2>
+                <p>Average Rating</p>
             </div>
         </div>
     </div>

@@ -4,7 +4,7 @@
 <section class="tmp-banner-main-area">
     <div class="tmp-section-gap ptb_sm-20 tmp-banner-one bg_image">
         <div class="banner-shape-area">
-            <img src="assets/images/banner/shape/01.webp" alt="banner-shape" class="shape shape-1">
+            <img src="assets/images/banner/bannerbackside.png" alt="banner-shape" class="shape shape-1">
         </div>
         <div class="container-3">
             <div class="banner-hero-image">
@@ -66,8 +66,9 @@
             <p>Happy Customers</p>
         </div>
         <div class="content">
-            <h2 class="title"><span class="counter"><span class="odometer" data-count="100">00</span></span>+</h2>
-            <p>Expert Team</p>
+            <h2 class="title"><span class="counter"><span class="odometer" data-count="4.8">0</span></span><i
+                    class="fa-regular fa-star" style="margin-left: 5px;"></i></h2>
+            <p>Average Rating</p>
         </div>
     </div>
 </div>
