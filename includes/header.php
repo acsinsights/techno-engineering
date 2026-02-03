@@ -25,224 +25,224 @@
 
     <!-- Custom Header Styles - Compact Like ConstX -->
     <style>
-    /* Compact Top Bar */
-    .header-one .header-top {
-        padding: 8px 0;
-        background: #1a1a2e;
-    }
-
-    .header-top-wrapper {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .header-top-wrapper .left {
-        display: flex;
-        align-items: center;
-        gap: 25px;
-    }
-
-    .header-top-wrapper .single-component.info-con {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-    }
-
-    .header-top-wrapper .single-component.info-con .icon {
-        font-size: 14px;
-    }
-
-    .header-top-wrapper .single-component.info-con .info span {
-        font-size: 13px;
-        white-space: nowrap;
-    }
-
-    /* Compact Main Header */
-    .header-one .header-main {
-        padding: 0;
-        background: #fff;
-    }
-
-    .header-mid-one-wrapper {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 2px 0 !important;
-        min-height: 70px;
-    }
-
-    /* Logo Size - Left Side */
-    .logo-area {
-        flex-shrink: 0;
-    }
-
-    .logo-area img {
-        max-width: 220px !important;
-        width: auto !important;
-    }
-
-    /* Nav + Header Right Container - All Right Side */
-    .header-right-section {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        margin-left: auto;
-    }
-
-    /* Navigation - Right Aligned */
-    .nav-area {
-        display: flex;
-        align-items: center;
-    }
-
-    .nav-area .mainmenu {
-        display: flex;
-        align-items: center;
-        gap: 0;
-        margin: 0;
-        padding: 0;
-        list-style: none;
-    }
-
-    .nav-area .mainmenu>li>a {
-        padding: 12px 20px;
-        font-size: 15px;
-        font-weight: 500;
-        white-space: nowrap;
-    }
-
-    /* Header Right - Contact Button */
-    .header-right {
-        display: flex;
-        align-items: center;
-        gap: 15px;
-        flex-shrink: 0;
-        margin-left: 10px;
-    }
-
-    .cart-search-area {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-    }
-
-    .header-right .tmp-btn.btn-sm {
-        padding: 10px 20px;
-        font-size: 14px;
-    }
-
-    /* Sticky Header Compact */
-    .header--sticky.sticky {
-        padding: 0;
-    }
-
-    .header--sticky.sticky .header-mid-one-wrapper {
-        padding: 0px 0 !important;
-    }
-
-    /* Footer Logo - Match Template Size */
-    .tmp-footer-area .single-footer-inner.logo-area .logo img {
-        max-height: 80px !important;
-        max-width: 220px !important;
-        width: auto !important;
-    }
-
-    /* Project Tag Mobile Responsive */
-    @media (max-width: 576px) {
-        .project-wrapper .content-area .tag {
-            padding: 5px 12px;
-            font-size: 12px;
-            margin-bottom: 8px;
+        /* Compact Top Bar */
+        .header-one .header-top {
+            padding: 8px 0;
+            background: #1a1a2e;
         }
 
-        .project-wrapper .content-area .title {
-            font-size: 16px;
-            line-height: 22px;
-            margin-bottom: 5px;
+        .header-top-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
         }
 
-        .project-wrapper .content-area {
-            padding: 15px;
+        .header-top-wrapper .left {
+            display: flex;
+            align-items: center;
+            gap: 25px;
         }
-    }
 
-    /* Mobile Header Logo Fix */
-    @media (max-width: 768px) {
-        .logo-area img {
-            max-width: 140px !important;
-            height: auto !important;
+        .header-top-wrapper .single-component.info-con {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .header-top-wrapper .single-component.info-con .icon {
+            font-size: 14px;
+        }
+
+        .header-top-wrapper .single-component.info-con .info span {
+            font-size: 13px;
+            white-space: nowrap;
+        }
+
+        /* Compact Main Header */
+        .header-one .header-main {
+            padding: 0;
+            background: #fff;
         }
 
         .header-mid-one-wrapper {
-            min-height: 60px;
-            padding: 5px 0 !important;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 2px 0 !important;
+            min-height: 70px;
         }
-    }
 
-    @media (max-width: 480px) {
+        /* Logo Size - Left Side */
+        .logo-area {
+            flex-shrink: 0;
+        }
+
         .logo-area img {
-            max-width: 150px !important;
-            height: auto !important;
+            max-width: 220px !important;
+            width: auto !important;
         }
 
-        .header-mid-one-wrapper {
-            min-height: 55px;
+        /* Nav + Header Right Container - All Right Side */
+        .header-right-section {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-left: auto;
         }
-    }
 
-    /* Override Primary Color to Red #ed3237 */
-    :root {
-        --color-primary: #ed3237 !important;
-        --color-primary-2: #ed3237 !important;
-        --color-secondary: #ed3237 !important;
-        --primary-600: #ed3237 !important;
-        --primary-700: #ed3237 !important;
-    }
-
-    .tmp-btn.btn-primary {
-        background: #ed3237 !important;
-    }
-
-    .tmp-btn.btn-primary::after {
-        background: #c9282d !important;
-    }
-
-    .tmp-btn.btn-border:hover {
-        background: #ed3237 !important;
-        border-color: #ed3237 !important;
-    }
-
-    .cta-button-area .tmp-btn.bg-white {
-        color: #ed3237 !important;
-    }
-
-    .cta-button-area .tmp-btn.bg-white:hover {
-        background: #ed3237 !important;
-        color: #fff !important;
-    }
-
-    /* CTA Button Hover Style */
-    .cta-button-area .tmp-btn:hover {
-        background: #fff !important;
-        color: #ed3237 !important;
-        border-color: #fff !important;
-    }
-
-    /* Footer Logo Mobile Responsive - Match Header Size */
-    @media (max-width: 768px) {
-        .tmp-footer-area .footer-widget .logo img {
-            width: 140px !important;
-            height: auto !important;
+        /* Navigation - Right Aligned */
+        .nav-area {
+            display: flex;
+            align-items: center;
         }
-    }
 
-    @media (max-width: 480px) {
-        .tmp-footer-area .footer-widget .logo img {
-            width: 120px !important;
-            height: auto !important;
+        .nav-area .mainmenu {
+            display: flex;
+            align-items: center;
+            gap: 0;
+            margin: 0;
+            padding: 0;
+            list-style: none;
         }
-    }
+
+        .nav-area .mainmenu>li>a {
+            padding: 12px 20px;
+            font-size: 15px;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+
+        /* Header Right - Contact Button */
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            flex-shrink: 0;
+            margin-left: 10px;
+        }
+
+        .cart-search-area {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .header-right .tmp-btn.btn-sm {
+            padding: 10px 20px;
+            font-size: 14px;
+        }
+
+        /* Sticky Header Compact */
+        .header--sticky.sticky {
+            padding: 0;
+        }
+
+        .header--sticky.sticky .header-mid-one-wrapper {
+            padding: 0px 0 !important;
+        }
+
+        /* Footer Logo - Match Template Size */
+        .tmp-footer-area .single-footer-inner.logo-area .logo img {
+            max-height: 80px !important;
+            max-width: 220px !important;
+            width: auto !important;
+        }
+
+        /* Project Tag Mobile Responsive */
+        @media (max-width: 576px) {
+            .project-wrapper .content-area .tag {
+                padding: 5px 12px;
+                font-size: 12px;
+                margin-bottom: 8px;
+            }
+
+            .project-wrapper .content-area .title {
+                font-size: 16px;
+                line-height: 22px;
+                margin-bottom: 5px;
+            }
+
+            .project-wrapper .content-area {
+                padding: 15px;
+            }
+        }
+
+        /* Mobile Header Logo Fix */
+        @media (max-width: 768px) {
+            .logo-area img {
+                max-width: 140px !important;
+                height: auto !important;
+            }
+
+            .header-mid-one-wrapper {
+                min-height: 60px;
+                padding: 5px 0 !important;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .logo-area img {
+                max-width: 150px !important;
+                height: auto !important;
+            }
+
+            .header-mid-one-wrapper {
+                min-height: 55px;
+            }
+        }
+
+        /* Override Primary Color to Red #ed3237 */
+        :root {
+            --color-primary: #ed3237 !important;
+            --color-primary-2: #ed3237 !important;
+            --color-secondary: #ed3237 !important;
+            --primary-600: #ed3237 !important;
+            --primary-700: #ed3237 !important;
+        }
+
+        .tmp-btn.btn-primary {
+            background: #ed3237 !important;
+        }
+
+        .tmp-btn.btn-primary::after {
+            background: #c9282d !important;
+        }
+
+        .tmp-btn.btn-border:hover {
+            background: #ed3237 !important;
+            border-color: #ed3237 !important;
+        }
+
+        .cta-button-area .tmp-btn.bg-white {
+            color: #ed3237 !important;
+        }
+
+        .cta-button-area .tmp-btn.bg-white:hover {
+            background: #ed3237 !important;
+            color: #fff !important;
+        }
+
+        /* CTA Button Hover Style */
+        .cta-button-area .tmp-btn:hover {
+            background: #fff !important;
+            color: #ed3237 !important;
+            border-color: #fff !important;
+        }
+
+        /* Footer Logo Mobile Responsive - Match Header Size */
+        @media (max-width: 768px) {
+            .tmp-footer-area .footer-widget .logo img {
+                width: 140px !important;
+                height: auto !important;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .tmp-footer-area .footer-widget .logo img {
+                width: 120px !important;
+                height: auto !important;
+            }
+        }
     </style>
 </head>
 
