@@ -135,25 +135,7 @@
                                     placeholder="Write your message" required=""></textarea>
                             </div>
 
-                            <div class="help-section">
-                                <p>How Can We Help?</p>
-                                <div class="check-box-flex-wrapper">
-                                    <div class="check-box">
-                                        <input type="checkbox" id="individual">
-                                        <label for="individual">Individual</label>
-                                    </div>
-                                    <div class="check-box">
-                                        <input type="checkbox" id="residentials">
-                                        <label for="residentials">Residential</label>
-                                    </div>
-                                    <div class="check-box">
-                                        <input type="checkbox" id="commercial">
-                                        <label for="commercial">Commercial</label>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <button class="tmp-btn btn-primary hover-icon-reverse w-100" type="submit" id="submit">
+                            <button class="tmp-btn btn-primary hover-icon-reverse w-100 mt-5" type="submit" id="submit" style="margin-top: 30px;">
                                 <span class="icon-reverse-wrapper">
                                     <span class="btn-text">Send Your Message</span>
                                     <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>

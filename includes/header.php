@@ -5,10 +5,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Techno Engineering Pvt. Ltd. - We undertake Fabrication & Erection of Power Plants, Steel Plants, Refineries and Nuclear Plants. Piping, Mechanical Maintenance, Roofing, Cladding, Blasting & Painting Services.">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.svg">
+
+    <!-- Primary Meta Tags -->
     <title>Techno Engineering Pvt. Ltd. | Fabrication & Erection | Industrial Services</title>
+    <meta name="title" content="Techno Engineering Pvt. Ltd. | Fabrication & Erection | Industrial Services">
+    <meta name="description" content="Techno Engineering Pvt. Ltd. - 30+ years of excellence in Fabrication & Erection of Power Plants, Steel Plants, Refineries and Nuclear Plants. Expert Piping, Mechanical Maintenance, Roofing, Cladding, Blasting & Painting Services across India.">
+    <meta name="keywords" content="Fabrication, Erection, Power Plant, Steel Plant, Refinery, Nuclear Plant, Mechanical Maintenance, Roofing, Cladding, Blasting, Painting, Industrial Services, Techno Engineering, Navi Mumbai, India">
+    <meta name="author" content="Techno Engineering Pvt. Ltd.">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://technoengineering.acsinsights.in/">
+    <meta property="og:title" content="Techno Engineering Pvt. Ltd. | Industrial Fabrication & Erection">
+    <meta property="og:description" content="30+ years of excellence in Fabrication & Erection of Power Plants, Steel Plants, Refineries. Expert Mechanical Maintenance, Roofing, Cladding & Painting Services.">
+    <meta property="og:image" content="https://technoengineering.acsinsights.in/assets/images/logo/TECHNOlogo.svg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="Techno Engineering Pvt. Ltd.">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://technoengineering.acsinsights.in/">
+    <meta property="twitter:title" content="Techno Engineering Pvt. Ltd. | Industrial Fabrication & Erection">
+    <meta property="twitter:description" content="30+ years of excellence in Fabrication & Erection of Power Plants, Steel Plants, Refineries. Expert Mechanical Maintenance, Roofing, Cladding & Painting Services.">
+    <meta property="twitter:image" content="https://technoengineering.acsinsights.in/assets/images/logo/TECHNOlogo.svg">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/svg+xml" href="assets/images/logo/TECHNOlogo.svg">
+    <link rel="icon" type="image/svg+xml" href="assets/images/logo/TECHNOlogo.svg">
+    <link rel="apple-touch-icon" href="assets/images/logo/TECHNOlogo.svg">
 
     <!-- CSS Files -->
     <link rel="preload" href="assets/css/plugins/fontawesome.css" as="style" onload="this.rel='stylesheet'">

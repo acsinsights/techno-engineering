@@ -2,59 +2,75 @@
  *
  * -----------------------------------------------------------------------------
  *
- * Template : Bizup - Creative Agency & Portfolio HTML Template
- * Author : reacthemes
- * Author URI : https://reactheme.com/ 
+ * Template : Techno Engineering Pvt. Ltd.
+ * Contact Form Handler with AJAX & JSON Response
  *
  * -----------------------------------------------------------------------------
  *
  **/
 
 (function ($) {
-    'use strict';
-    // Get the form.
-    var form = $('#contact-form');
+  "use strict";
 
-    // Get the messages div.
-    var formMessages = $('#form-messages');
+  // Generic form handler function
+  function handleFormSubmit(formSelector) {
+    var form = $(formSelector);
 
-    // Set up an event listener for the contact form.
-    $(form).submit(function (e) {
-        // Stop the browser from submitting the form.
-        e.preventDefault();
+    if (form.length === 0) return;
 
-        // Serialize the form data.
-        var formData = $(form).serialize();
+    form.submit(function (e) {
+      // Stop the browser from submitting the form.
+      e.preventDefault();
 
-        // Submit the form using AJAX.
-        $.ajax({
-                type: 'POST',
-                url: $(form).attr('action'),
-                data: formData
-            })
-            .done(function (response) {
-                // Make sure that the formMessages div has the 'success' class.
-                $(formMessages).removeClass('error');
-                $(formMessages).addClass('success');
+      // Get submit button
+      var submitBtn = form.find('button[type="submit"]');
+      var originalBtnText = submitBtn.find(".btn-text").text();
 
-                // Set the message text.
-                $(formMessages).text(response);
+      // Show loading state
+      submitBtn.prop("disabled", true);
+      submitBtn.find(".btn-text").text("Sending...");
 
-                // Clear the form.
-                $('#name, #email,  #subject, #message').val('');
-            })
-            .fail(function (data) {
-                // Make sure that the formMessages div has the 'error' class.
-                $(formMessages).removeClass('success');
-                $(formMessages).addClass('error');
+      // Serialize the form data.
+      var formData = form.serialize();
 
-                // Set the message text.
-                if (data.responseText !== '') {
-                    $(formMessages).text(data.responseText);
-                } else {
-                    $(formMessages).text('Oops! An error occured and your message could not be sent.');
-                }
-            });
+      // Submit the form using AJAX.
+      $.ajax({
+        type: "POST",
+        url: form.attr("action"),
+        data: formData,
+        dataType: "json",
+      })
+        .done(function (response) {
+          // Reset button state
+          submitBtn.prop("disabled", false);
+          submitBtn.find(".btn-text").text(originalBtnText);
+
+          if (response.success) {
+            // Success - show alert and reset form
+            alert("✅ " + response.message);
+
+            // Clear all form fields
+            form[0].reset();
+          } else {
+            // Error from server
+            alert("❌ " + response.message);
+          }
+        })
+        .fail(function (xhr, status, error) {
+          // Reset button state
+          submitBtn.prop("disabled", false);
+          submitBtn.find(".btn-text").text(originalBtnText);
+
+          // Network or server error
+          alert(
+            "❌ Oops! An error occurred. Please try again or contact us at +91 98337 71515.",
+          );
+          console.error("Form submission error:", error);
+        });
     });
+  }
 
+  // Initialize all forms
+  handleFormSubmit("#contact-form");
+  handleFormSubmit("#quote-form");
 })(jQuery);
