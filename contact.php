@@ -47,23 +47,21 @@
                     <div class="get-in-touch-wrapper">
                         <div class="icons"><i class="fa-regular fa-headphones"></i></div>
                         <h3 class="title">Contact Mobile Number</h3>
-                        <p><a class="hover-moving-primary" href="tel:+911234567890">(+91) 12345 67890</a></p>
-                        <p><a class="hover-moving-primary" href="tel:+919876543210">(+91) 98765 43210</a></p>
+                        <p><a class="hover-moving-primary" href="tel:+919833771515">(+91) 98337 71515</a></p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6" data-sal="slide-right" data-sal-duration="800" data-sal-delay="500">
                     <div class="get-in-touch-wrapper">
                         <div class="icons"><i class="fa-solid fa-envelope"></i></div>
                         <h3 class="title">Our Email Address</h3>
-                        <p><a class="hover-moving-primary" href="mailto:info@technoengg.com">info@technoengg.com</a></p>
-                        <p><a class="hover-moving-primary" href="mailto:hr@technoengg.com">hr@technoengg.com</a></p>
+                        <p><a class="hover-moving-primary" href="mailto:techoeng70@yahoo.in">techoeng70@yahoo.in</a></p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6" data-sal="slide-right" data-sal-duration="800" data-sal-delay="700">
                     <div class="get-in-touch-wrapper">
                         <div class="icons"><i class="fa-regular fa-location-dot"></i></div>
                         <h3 class="title">Head Office Location</h3>
-                        <p>123, Industrial Area, Phase-2, <br> Sector 45, Noida - 201301, UP</p>
+                        <p>Room No.B-003, Plot No. 39,45,46,47 <br> Neel Residency Phase-I, Sector-03, <br> New Panvel - 410206</p>
                     </div>
                 </div>
 
@@ -190,7 +188,7 @@
                         <div class="social-bottom-area">
                             <div class="phone">
                                 <h4 class="mb--20">Support Center</h4>
-                                <a class="hover-moving-primary" href="call-to:+44-4545-98877">+44-4545-98877</a>
+                                <a class="hover-moving-primary" href="tel:+919833771515">(+91) 98337 71515</a>
                             </div>
                             <div class="social-icon-wrapper">
                                 <h4>Follow Us</h4>
@@ -215,7 +213,7 @@
                 <div class="col-lg-6">
                     <div class="contact-map">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.0831693089!2d72.7833!3d21.2167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjHCsDEzJzAwLjEiTiA3MsKwNDcnMDAuMCJF!5e0!3m2!1sen!2sin!4v1234567890"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.5374075969387!2d73.1089!3d19.0330!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c24cce39e46f%3A0x2a7e4e3a2f1b4c0d!2sNeel%20Residency%20Phase%20I%2C%20Sector%203%2C%20New%20Panvel%2C%20Panvel%2C%20Navi%20Mumbai%2C%20Maharashtra%20410206!5e0!3m2!1sen!2sin!4v1706947200000!5m2!1sen!2sin"
                             width="100%" height="450" style="border:0; border-radius: 10px;" allowfullscreen=""
                             loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>

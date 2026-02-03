@@ -54,20 +54,20 @@
 <div class="tmp-counter-area">
     <div class="counter-inner">
         <div class="content">
-            <h2 class="title"><span class="counter"><span class="odometer" data-count="25">00</span></span>+</h2>
-            <p>Years of Success</p>
+            <h2 class="title"><span class="counter"><span class="odometer" data-count="30">00</span></span>+</h2>
+            <p>Years of Experience</p>
         </div>
         <div class="content">
-            <h2 class="title"><span class="counter"><span class="odometer" data-count="700">00</span></span>+</h2>
-            <p>Experienced Works</p>
+            <h2 class="title"><span class="counter"><span class="odometer" data-count="900">00</span></span>+</h2>
+            <p>Completed Projects</p>
+        </div>
+        <div class="content">
+            <h2 class="title"><span class="counter"><span class="odometer" data-count="80">00</span></span>%</h2>
+            <p>Happy Customers</p>
         </div>
         <div class="content">
             <h2 class="title"><span class="counter"><span class="odometer" data-count="100">00</span></span>+</h2>
-            <p>Powerful Machineries</p>
-        </div>
-        <div class="content">
-            <h2 class="title"><span class="counter"><span class="odometer" data-count="50">00</span></span>+</h2>
-            <p>Happy Clients</p>
+            <p>Expert Team</p>
         </div>
     </div>
 </div>
@@ -89,7 +89,7 @@
                         </div>
                         <div class="about-card" data-parallax='{"x": 0, "y": -50}'>
                             <div class="card-top">
-                                <h3 class="title animated fadeIn"><span class="counter animated">25</span>+</h3>
+                                <h3 class="title animated fadeIn"><span class="counter animated">30</span>+</h3>
                                 <p class="desc">Years of Experience</p>
                             </div>
                             <div class="card-bottom">
@@ -285,13 +285,15 @@
                                 Industrial Engineering Services
                             </h2>
                             <p class="desc mb--0" data-sal="slide-up" data-sal-duration="800" data-sal-delay="500">
-                                We provide comprehensive industrial solutions including Fabrication, Erection,
-                                Mechanical Maintenance, Roofing, Cladding, Blasting and Painting services to large
-                                Public & Private sector undertakings.</p>
+                                With 30+ years of expertise, we deliver end-to-end industrial solutions including
+                                Fabrication & Erection,
+                                Mechanical Maintenance, Labour Supply, Roofing & Cladding, and Blasting & Painting
+                                services to leading
+                                Public & Private sector organizations across India.</p>
                             <div class="service-btn-area mt--30" data-sal="slide-up" data-sal-duration="800"
                                 data-sal-delay="600">
-                                <a href="service.php" class="tmp-btn btn-primary hover-icon-reverse"
-                                    data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
+                                <a href="service.php" class="tmp-btn btn-primary hover-icon-reverse" data-sal="slide-up"
+                                    data-sal-duration="800" data-sal-delay="300">
                                     <span class="icon-reverse-wrapper">
                                         <span class="btn-text">View All</span>
                                         <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
@@ -311,10 +313,11 @@
                                     <div class="icon">
                                         <img src="assets/images/service/icon/01.svg" alt="">
                                     </div>
-                                    <h3 class="heading-title"><a href="service.php#fabrication-erection">Fabrication & Erection</a>
+                                    <h3 class="heading-title"><a href="service.php#fabrication-erection">Fabrication &
+                                            Erection</a>
                                     </h3>
-                                    <p class="desc">Heavy Steel Structures fabrication for Power Plants, Steel Plants,
-                                        Refineries & Nuclear Plants.</p>
+                                    <p class="desc">Expert fabrication & erection of heavy steel structures for Power
+                                        Plants, Refineries & Steel Plants with precision engineering.</p>
                                     <div class="service-btn-area">
                                         <a href="service.php#fabrication-erection"
                                             class="service-btn text-btn btn-arrow hover-moving-primary">Know More <i
@@ -328,10 +331,11 @@
                                     <div class="icon">
                                         <img src="assets/images/service/icon/02.svg" alt="">
                                     </div>
-                                    <h3 class="heading-title"><a href="service.php#mechanical-maintenance">Mechanical Maintenance</a>
+                                    <h3 class="heading-title"><a href="service.php#mechanical-maintenance">Mechanical
+                                            Maintenance</a>
                                     </h3>
-                                    <p class="desc">Maintenance of Heat Exchangers, Vessels, Columns, Filters, Heaters,
-                                        Dryers & Furnaces.</p>
+                                    <p class="desc">Complete maintenance of Heat Exchangers, Vessels, Columns, Filters,
+                                        Heaters & Furnaces for optimal performance.</p>
                                     <div class="service-btn-area">
                                         <a href="service.php#mechanical-maintenance"
                                             class="service-btn text-btn btn-arrow hover-moving-primary">Know More <i
@@ -345,9 +349,10 @@
                                     <div class="icon">
                                         <img src="assets/images/service/icon/03.svg" alt="">
                                     </div>
-                                    <h3 class="heading-title"><a href="service.php#roofing-cladding">Roofing & Cladding</a></h3>
-                                    <p class="desc">Wide range of Roofing & Wall Cladding products including Color
-                                        Coated Profile Sheets.</p>
+                                    <h3 class="heading-title"><a href="service.php#roofing-cladding">Roofing &
+                                            Cladding</a></h3>
+                                    <p class="desc">Premium quality industrial roofing & wall cladding solutions with
+                                        durable color coated profile sheets.</p>
                                     <div class="service-btn-area">
                                         <a href="service.php#roofing-cladding"
                                             class="service-btn text-btn btn-arrow hover-moving-primary">Know More <i
@@ -361,10 +366,11 @@
                                     <div class="icon">
                                         <img src="assets/images/service/icon/04.svg" alt="">
                                     </div>
-                                    <h3 class="heading-title"><a href="service.php#blasting-painting">Blasting & Painting</a>
+                                    <h3 class="heading-title"><a href="service.php#blasting-painting">Blasting &
+                                            Painting</a>
                                     </h3>
-                                    <p class="desc">Copper-slag, Grit & Sand Blasting, Epoxy Brush Painting, Airless
-                                        Spray Painting & Guniting.</p>
+                                    <p class="desc">Advanced surface preparation & protective coating with sand
+                                        blasting, epoxy painting & anti-corrosive solutions.</p>
                                     <div class="service-btn-area">
                                         <a href="service.php#blasting-painting"
                                             class="service-btn text-btn btn-arrow hover-moving-primary">Know More <i
@@ -379,8 +385,8 @@
                                         <img src="assets/images/service/icon/05.svg" alt="">
                                     </div>
                                     <h3 class="heading-title"><a href="service.php#labour-supply">Labour Supply</a></h3>
-                                    <p class="desc">Skilled contractor labour for construction & industries with years
-                                        of experience.</p>
+                                    <p class="desc">Reliable skilled & semi-skilled manpower supply for construction &
+                                        industrial projects with trained workforce.</p>
                                     <div class="service-btn-area">
                                         <a href="service.php#labour-supply"
                                             class="service-btn text-btn btn-arrow hover-moving-primary">Know More <i
@@ -394,9 +400,10 @@
                                     <div class="icon">
                                         <img src="assets/images/service/icon/06.svg" alt="">
                                     </div>
-                                    <h3 class="heading-title"><a href="service.php#mechanical-fabrication-hrt">HRT Fabrication</a></h3>
-                                    <p class="desc">High Rate Thickener components - Support Structures, Discharge
-                                        Cones, Tank Shells & more.</p>
+                                    <h3 class="heading-title"><a href="service.php#mechanical-fabrication-hrt">HRT
+                                            Fabrication</a></h3>
+                                    <p class="desc">Export-quality High Rate Thickener components fabrication for mining
+                                        & mineral processing industries.</p>
                                     <div class="service-btn-area">
                                         <a href="service.php#mechanical-fabrication-hrt"
                                             class="service-btn text-btn btn-arrow hover-moving-primary">Know More <i
@@ -511,9 +518,8 @@
                             <div class="content-area">
                                 <p class="tag">Steel Plant</p>
                                 <h3 class="title"><a href="portfolio-details.html">AM/NS Projects, Hazira</a></h3>
-                                <a href="service.php"
-                                    class="service-btn text-btn btn-arrow hover-moving-primary">Know More <i
-                                        class="fal fa-arrow-right"></i></a>
+                                <a href="service.php" class="service-btn text-btn btn-arrow hover-moving-primary">Know
+                                    More <i class="fal fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -527,9 +533,8 @@
                             <div class="content-area">
                                 <p class="tag">Steel Industry</p>
                                 <h3 class="title"><a href="portfolio-details.html">JSW Steel</a></h3>
-                                <a href="service.php"
-                                    class="service-btn text-btn btn-arrow hover-moving-primary">Know More <i
-                                        class="fal fa-arrow-right"></i></a>
+                                <a href="service.php" class="service-btn text-btn btn-arrow hover-moving-primary">Know
+                                    More <i class="fal fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -543,9 +548,8 @@
                             <div class="content-area">
                                 <p class="tag">Power Plant</p>
                                 <h3 class="title"><a href="portfolio-details.html">Jindal Steel And Power Ltd.</a></h3>
-                                <a href="service.php"
-                                    class="service-btn text-btn btn-arrow hover-moving-primary">Know More <i
-                                        class="fal fa-arrow-right"></i></a>
+                                <a href="service.php" class="service-btn text-btn btn-arrow hover-moving-primary">Know
+                                    More <i class="fal fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -559,9 +563,8 @@
                             <div class="content-area">
                                 <p class="tag">Steel Plant</p>
                                 <h3 class="title"><a href="portfolio-details.html">Essar Steel Ltd., Hazira</a></h3>
-                                <a href="service.php"
-                                    class="service-btn text-btn btn-arrow hover-moving-primary">Know More <i
-                                        class="fal fa-arrow-right"></i></a>
+                                <a href="service.php" class="service-btn text-btn btn-arrow hover-moving-primary">Know
+                                    More <i class="fal fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -575,9 +578,8 @@
                             <div class="content-area">
                                 <p class="tag">Defence</p>
                                 <h3 class="title"><a href="portfolio-details.html">L&T Defence</a></h3>
-                                <a href="service.php"
-                                    class="service-btn text-btn btn-arrow hover-moving-primary">Know More <i
-                                        class="fal fa-arrow-right"></i></a>
+                                <a href="service.php" class="service-btn text-btn btn-arrow hover-moving-primary">Know
+                                    More <i class="fal fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -591,9 +593,8 @@
                             <div class="content-area">
                                 <p class="tag">Infrastructure</p>
                                 <h3 class="title"><a href="portfolio-details.html">Larsen & Toubro</a></h3>
-                                <a href="service.php"
-                                    class="service-btn text-btn btn-arrow hover-moving-primary">Know More <i
-                                        class="fal fa-arrow-right"></i></a>
+                                <a href="service.php" class="service-btn text-btn btn-arrow hover-moving-primary">Know
+                                    More <i class="fal fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -650,9 +651,9 @@
                         <div class="service-contact-area" data-sal="slide-up" data-sal-duration="800"
                             data-sal-delay="400">
                             <h4 class="title">Call Us Today</h4>
-                            <a href="tel:+919898234294">
+                            <a href="tel:+919833771515">
                                 <i class="fal fa-phone-alt"></i>
-                                <span class="hover-moving-primary">(+91) 98982 34294</span>
+                                <span class="hover-moving-primary">(+91) 98337 71515</span>
                             </a>
                         </div>
                         <div class="service-btn-area" data-sal="slide-up" data-sal-duration="800" data-sal-delay="500">

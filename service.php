@@ -205,16 +205,20 @@
                     <div class="service-zigzag-content">
                         <span class="service-number">01</span>
                         <h2 class="service-title">Fabrication & Erection</h2>
-                        <p class="service-desc">We hold years of experience and knowledge of rendering services for
-                            Heavy Steel Structures fabrication. To render offered fabrication services for heavy steel
-                            structures, we have appointed a team of adroit professionals who follow industry set
-                            guidelines and ensure execution within stipulated time frame.</p>
+                        <p class="service-desc">With over 30 years of expertise, Techno Engineering delivers world-class
+                            fabrication and erection services for heavy steel structures. Our skilled team of engineers
+                            and technicians execute complex industrial projects with precision, adhering to
+                            international quality standards and safety protocols. We specialize in turnkey solutions for
+                            major industries across India.</p>
                         <ul class="service-features">
-                            <li><i class="fa-solid fa-check-circle"></i> Power Plants & Steel Plants Fabrication</li>
-                            <li><i class="fa-solid fa-check-circle"></i> Refineries & Nuclear Plants Structures</li>
-                            <li><i class="fa-solid fa-check-circle"></i> Piping - Carbon Steel, Alloy Steel & Stainless
-                                Steel</li>
-                            <li><i class="fa-solid fa-check-circle"></i> Static & Rotary Equipment Erection</li>
+                            <li><i class="fa-solid fa-check-circle"></i> Power Plants, Steel Plants & Refineries</li>
+                            <li><i class="fa-solid fa-check-circle"></i> Piping Systems - CS, Alloy & SS of all grades
+                            </li>
+                            <li><i class="fa-solid fa-check-circle"></i> Structural Steel Fabrication & Installation
+                            </li>
+                            <li><i class="fa-solid fa-check-circle"></i> Equipment Erection - Static & Rotary</li>
+                            <li><i class="fa-solid fa-check-circle"></i> On-time Project Delivery with Quality Assurance
+                            </li>
                         </ul>
                         <a href="contact.php" class="service-btn-zigzag">Get Quote <i
                                 class="fa-solid fa-arrow-right"></i></a>
@@ -237,15 +241,17 @@
                     <div class="service-zigzag-content">
                         <span class="service-number">02</span>
                         <h2 class="service-title">Mechanical Maintenance</h2>
-                        <p class="service-desc">We undertake Mechanical Maintenance of heat exchangers, Vessels,
-                            Columns, Filters. Repairs & Maintenance of exchangers, heaters, dryers & Furnace to large
-                            Public & Private sector undertaking. Driven with superiority, we present top class services
-                            for Heat Exchanger Maintenance.</p>
+                        <p class="service-desc">Techno Engineering provides comprehensive mechanical maintenance
+                            services to ensure optimal performance and longevity of your industrial equipment. Our
+                            expert technicians deliver preventive, predictive, and corrective maintenance solutions for
+                            both public and private sector organizations, minimizing downtime and maximizing operational
+                            efficiency.</p>
                         <ul class="service-features">
-                            <li><i class="fa-solid fa-check-circle"></i> Heat Exchangers & Vessels Maintenance</li>
-                            <li><i class="fa-solid fa-check-circle"></i> Columns & Filters Repairs</li>
-                            <li><i class="fa-solid fa-check-circle"></i> Heaters, Dryers & Furnace Maintenance</li>
-                            <li><i class="fa-solid fa-check-circle"></i> Public & Private Sector Services</li>
+                            <li><i class="fa-solid fa-check-circle"></i> Heat Exchangers & Pressure Vessels</li>
+                            <li><i class="fa-solid fa-check-circle"></i> Columns, Filters & Reactors Maintenance</li>
+                            <li><i class="fa-solid fa-check-circle"></i> Heaters, Dryers & Industrial Furnaces</li>
+                            <li><i class="fa-solid fa-check-circle"></i> Preventive & Breakdown Maintenance</li>
+                            <li><i class="fa-solid fa-check-circle"></i> Annual Maintenance Contracts (AMC)</li>
                         </ul>
                         <a href="contact.php" class="service-btn-zigzag">Get Quote <i
                                 class="fa-solid fa-arrow-right"></i></a>
@@ -268,14 +274,17 @@
                     <div class="service-zigzag-content">
                         <span class="service-number">03</span>
                         <h2 class="service-title">Roofing & Cladding</h2>
-                        <p class="service-desc">We are engaged in manufacturing wide gamut of Roofing and Wall Cladding
-                            Products. These are fabricated using top quality materials sourced from reliable vendors.
-                            Our products are well known for quality and longer service life.</p>
+                        <p class="service-desc">We offer premium quality roofing and wall cladding solutions for
+                            industrial and commercial buildings. Using top-grade materials from trusted manufacturers,
+                            we deliver durable, weather-resistant, and aesthetically appealing roofing systems that
+                            stand the test of time. Our turnkey roofing projects ensure complete satisfaction from
+                            design to installation.</p>
                         <ul class="service-features">
-                            <li><i class="fa-solid fa-check-circle"></i> Color Coated Profile Sheets</li>
-                            <li><i class="fa-solid fa-check-circle"></i> Industrial Roofing Solutions</li>
-                            <li><i class="fa-solid fa-check-circle"></i> Turnkey Roofing Projects</li>
-                            <li><i class="fa-solid fa-check-circle"></i> Wall Cladding Products</li>
+                            <li><i class="fa-solid fa-check-circle"></i> Color Coated Profile Sheets & Panels</li>
+                            <li><i class="fa-solid fa-check-circle"></i> Industrial & Commercial Roofing</li>
+                            <li><i class="fa-solid fa-check-circle"></i> Metal Wall Cladding Systems</li>
+                            <li><i class="fa-solid fa-check-circle"></i> Insulated Roofing Solutions</li>
+                            <li><i class="fa-solid fa-check-circle"></i> Turnkey Roofing Project Execution</li>
                         </ul>
                         <a href="contact.php" class="service-btn-zigzag">Get Quote <i
                                 class="fa-solid fa-arrow-right"></i></a>
@@ -298,14 +307,17 @@
                     <div class="service-zigzag-content">
                         <span class="service-number">04</span>
                         <h2 class="service-title">Blasting & Painting</h2>
-                        <p class="service-desc">We are engaged in rendering unparalleled Blasting, Painting & Coating
-                            Services. We are one of the leading contractors executing Sandblasting and all types of
-                            Industrial Painting Contracts, providing quality solutions in corrosion protection.</p>
+                        <p class="service-desc">Techno Engineering is a leading contractor for industrial surface
+                            preparation and protective coating services. We provide complete corrosion protection
+                            solutions using advanced blasting techniques and high-performance industrial paints. Our
+                            services ensure extended asset life and superior surface finish for all types of industrial
+                            structures.</p>
                         <ul class="service-features">
-                            <li><i class="fa-solid fa-check-circle"></i> Copper-slag, Grit & Sand Blasting</li>
-                            <li><i class="fa-solid fa-check-circle"></i> Epoxy Brush Painting</li>
-                            <li><i class="fa-solid fa-check-circle"></i> Airless Spray Painting</li>
-                            <li><i class="fa-solid fa-check-circle"></i> Guniting & Shotcreting Services</li>
+                            <li><i class="fa-solid fa-check-circle"></i> Sand, Grit & Copper-slag Blasting</li>
+                            <li><i class="fa-solid fa-check-circle"></i> Epoxy & Polyurethane Coating</li>
+                            <li><i class="fa-solid fa-check-circle"></i> Airless Spray & Brush Painting</li>
+                            <li><i class="fa-solid fa-check-circle"></i> Guniting & Shotcreting Works</li>
+                            <li><i class="fa-solid fa-check-circle"></i> Anti-corrosive & Fire-resistant Coatings</li>
                         </ul>
                         <a href="contact.php" class="service-btn-zigzag">Get Quote <i
                                 class="fa-solid fa-arrow-right"></i></a>
@@ -328,15 +340,17 @@
                     <div class="service-zigzag-content">
                         <span class="service-number">05</span>
                         <h2 class="service-title">Labour Supply</h2>
-                        <p class="service-desc">We are one of the prestigious service providers involved in offering
-                            Contractor Labour for Construction and other industries. These services are rendered by
-                            highly dedicated, punctual, obedient and hardworking professionals with years of experience.
-                        </p>
+                        <p class="service-desc">Techno Engineering provides reliable and skilled manpower solutions for
+                            construction and industrial projects. Our workforce comprises trained, dedicated, and
+                            safety-conscious professionals who deliver quality work consistently. We offer flexible
+                            labour supply contracts tailored to your project requirements with complete statutory
+                            compliance.</p>
                         <ul class="service-features">
-                            <li><i class="fa-solid fa-check-circle"></i> Skilled & Semi-skilled Manpower</li>
-                            <li><i class="fa-solid fa-check-circle"></i> Experienced Engineers & Supervisors</li>
-                            <li><i class="fa-solid fa-check-circle"></i> Construction Industry Labour</li>
-                            <li><i class="fa-solid fa-check-circle"></i> Industry Leading Prices</li>
+                            <li><i class="fa-solid fa-check-circle"></i> Skilled & Semi-skilled Workforce</li>
+                            <li><i class="fa-solid fa-check-circle"></i> Trained Engineers & Site Supervisors</li>
+                            <li><i class="fa-solid fa-check-circle"></i> Welders, Fitters & Riggers</li>
+                            <li><i class="fa-solid fa-check-circle"></i> Safety-trained Manpower</li>
+                            <li><i class="fa-solid fa-check-circle"></i> Flexible Contract Options</li>
                         </ul>
                         <a href="contact.php" class="service-btn-zigzag">Get Quote <i
                                 class="fa-solid fa-arrow-right"></i></a>
@@ -359,15 +373,18 @@
                     <div class="service-zigzag-content">
                         <span class="service-number">06</span>
                         <h2 class="service-title">Mechanical Fabrication – HRT</h2>
-                        <p class="service-desc">Liquid Separation is the basic function of High Rate Thickener (HRT). We
-                            are executing components fabrication for HRT (export quality) at M/s Tenova India Private
-                            Limited's workshop, Bangalore - part of Tenova Mining and Minerals Division of Tenova S.P.A,
-                            Italy.</p>
+                        <p class="service-desc">We specialize in precision fabrication of High Rate Thickener (HRT)
+                            components for mining and mineral processing industries. Our export-quality fabrication
+                            meets international standards, serving leading global companies. Each component is
+                            manufactured with strict quality control ensuring optimal performance in liquid-solid
+                            separation applications.</p>
                         <ul class="service-features">
                             <li><i class="fa-solid fa-check-circle"></i> Support Structures & Discharge Cones</li>
                             <li><i class="fa-solid fa-check-circle"></i> Tank Shells, Bridges & Rack Arms</li>
                             <li><i class="fa-solid fa-check-circle"></i> Center Columns & Torque Cages</li>
-                            <li><i class="fa-solid fa-check-circle"></i> Feedwells, Scrapers & Drives</li>
+                            <li><i class="fa-solid fa-check-circle"></i> Feedwells, Scrapers & Drive Mechanisms</li>
+                            <li><i class="fa-solid fa-check-circle"></i> Export Quality with International Standards
+                            </li>
                         </ul>
                         <a href="contact.php" class="service-btn-zigzag">Get Quote <i
                                 class="fa-solid fa-arrow-right"></i></a>
@@ -404,7 +421,7 @@
                         <div class="social-bottom-area">
                             <div class="phone">
                                 <h4 class="mb--20">Call Us Now</h4>
-                                <a class="hover-moving-primary" href="tel:+919898234294">(+91) 98982 34294</a>
+                                <a class="hover-moving-primary" href="tel:+919833771515">(+91) 98337 71515</a>
                             </div>
                             <div class="social-icon-wrapper">
                                 <h4>Follow Us</h4>
@@ -522,7 +539,7 @@
                         <p class="desc">Our commitment to excellence has made us a preferred partner for AM/NS, JSW
                             Steel, Jindal Steel, Essar Steel, L&T Defence, Tata Projects and more.</p>
                         <div class="bottom-service">
-                            <p><span>20+</span> Years of Excellence</p>
+                            <p><span>30+</span> Years of Excellence</p>
                         </div>
                     </div>
                     <div class="pagination-area">

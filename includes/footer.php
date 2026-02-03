@@ -38,7 +38,7 @@
                             </a>
                         </div>
                         <p class="desc mb--25" style="color: #a0a0a0; line-height: 1.8;">We've delivered quality
-                            construction & industrial services for over 25 years. Trusted by leading industries across
+                            construction & industrial services for over 30 years. Trusted by leading industries across
                             India.</p>
                         <div class="social-wrapper-one">
                             <ul style="display: flex; gap: 10px;">
@@ -71,10 +71,6 @@
                                     style="color: #a0a0a0;">About Us</a></li>
                             <li style="margin-bottom: 12px;"><a href="service.php" class="hover-moving-primary"
                                     style="color: #a0a0a0;">Our Services</a></li>
-                            <li style="margin-bottom: 12px;"><a href="gallery.html" class="hover-moving-primary"
-                                    style="color: #a0a0a0;">Gallery</a></li>
-                            <li style="margin-bottom: 12px;"><a href="career.html" class="hover-moving-primary"
-                                    style="color: #a0a0a0;">Careers</a></li>
                             <li><a href="contact.php" class="hover-moving-primary" style="color: #a0a0a0;">Contact
                                     Us</a></li>
                         </ul>
@@ -116,8 +112,7 @@
                                 </div>
                                 <div class="content">
                                     <h5 style="color: #fff; font-size: 16px; margin-bottom: 5px;">Head Office</h5>
-                                    <p style="color: #a0a0a0; margin: 0; line-height: 1.6;">123, Industrial Area,
-                                        Phase-2, Sector 45, Noida - 201301, UP, India</p>
+                                    <p style="color: #a0a0a0; margin: 0; line-height: 1.6;">Room No.B-003, Plot No. 39,45,46,47, Neel Residency Phase-I, Sector-03, New Panvel - 410206</p>
                                 </div>
                             </li>
                             <li style="margin-bottom: 20px; display: flex; gap: 15px;">
@@ -127,10 +122,7 @@
                                 </div>
                                 <div class="content">
                                     <h5 style="color: #fff; font-size: 16px; margin-bottom: 5px;">Phone Number</h5>
-                                    <p style="margin: 0;"><a href="tel:+911234567890" style="color: #a0a0a0;">(+91)
-                                            12345 67890</a></p>
-                                    <p style="margin: 0;"><a href="tel:+919876543210" style="color: #a0a0a0;">(+91)
-                                            98765 43210</a></p>
+                                    <p style="margin: 0;"><a href="tel:+919833771515" style="color: #a0a0a0;">(+91) 98337 71515</a></p>
                                 </div>
                             </li>
                             <li style="margin-bottom: 20px; display: flex; gap: 15px;">
@@ -140,10 +132,8 @@
                                 </div>
                                 <div class="content">
                                     <h5 style="color: #fff; font-size: 16px; margin-bottom: 5px;">Email Address</h5>
-                                    <p style="margin: 0;"><a href="mailto:info@technoengg.com"
-                                            style="color: #a0a0a0;">info@technoengg.com</a></p>
-                                    <p style="margin: 0;"><a href="mailto:hr@technoengg.com"
-                                            style="color: #a0a0a0;">hr@technoengg.com</a></p>
+                                    <p style="margin: 0;"><a href="mailto:techoeng70@yahoo.in"
+                                            style="color: #a0a0a0;">techoeng70@yahoo.in</a></p>
                                 </div>
                             </li>
                         </ul>
@@ -166,9 +156,9 @@
                 <div class="col-md-6">
                     <ul class="copyright-links"
                         style="display: flex; justify-content: flex-end; gap: 30px; list-style: none; margin: 0; padding: 0;">
-                        <li><a class="hover-moving-primary" href="privacy-policy.html" style="color: #a0a0a0;">Privacy
+                        <li><a class="hover-moving-primary" href="privacy-policy.php" style="color: #a0a0a0;">Privacy
                                 Policy</a></li>
-                        <li><a class="hover-moving-primary" href="terms-condition.html" style="color: #a0a0a0;">Terms
+                        <li><a class="hover-moving-primary" href="terms-condition.php" style="color: #a0a0a0;">Terms
                                 and Condition</a></li>
                     </ul>
                 </div>
@@ -317,8 +307,8 @@
 <script src="assets/js/main.js" defer></script>
 
 <script>
-// Set current year
-document.getElementById('year').textContent = new Date().getFullYear();
+    // Set current year
+    document.getElementById('year').textContent = new Date().getFullYear();
 </script>
 
 </body>

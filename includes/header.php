@@ -264,12 +264,12 @@
                                 </div>
                                 <div class="single-component info-con">
                                     <div class="icon"><i class="fal fa-phone"></i></div>
-                                    <div class="info"><span><a href="tel:+919898234294">(+91) 98982 34294</a></span>
+                                    <div class="info"><span><a href="tel:+919833771515">(+91) 98337 71515</a></span>
                                     </div>
                                 </div>
                                 <div class="single-component info-con">
                                     <div class="icon"><i class="fal fa-map-marker-alt"></i></div>
-                                    <div class="info"><span>B-302, Shila Tower, Adajan, Surat - 395009</span></div>
+                                    <div class="info"><span>Room No.B-003, Neel Residency Phase-I, New Panvel - 410206</span></div>
                                 </div>
                             </div>
                             <!-- Right - Social Icons -->
