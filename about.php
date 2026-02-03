@@ -60,7 +60,8 @@
                 <p>Happy Customers</p>
             </div>
             <div class="content">
-                <h2 class="title"><span class="counter"><span class="odometer" data-count="4.8">0</span></span><i class="fa-regular fa-star" style="margin-left: 5px;"></i></h2>
+                <h2 class="title"><span class="counter"><span class="odometer" data-count="4.8">0</span></span><i
+                        class="fa-regular fa-star" style="margin-left: 5px;"></i></h2>
                 <p>Average Rating</p>
             </div>
         </div>
@@ -76,7 +77,8 @@
                 <div class="col-xl-7">
                     <div class="about-image-area mr--50">
                         <img class="image-one" src="assets/images/about/01.webp" alt="Industrial Infrastructure">
-                        <img class="image-two" src="assets/images/about/02.webp" alt="Industrial Infrastructure">
+                        <img class="image-two" src="assets/images/director/6575b68a57.jpg"
+                            alt="Industrial Infrastructure">
                         <div class="floating-area" data-parallax='{"x": -60, "y": 0}'>
                             <div class="image">
                                 <img src="assets/images/about/03.webp" alt="Industrial Infrastructure">
@@ -268,8 +270,8 @@
         <div class="row align-items-center g-5">
             <div class="col-lg-5">
                 <div class="director-image-area" data-sal="slide-right" data-sal-duration="800" data-sal-delay="100">
-                    <img src="assets/images/profile/01.webp" alt="Rameshkumar Ramprasad Singh - Director"
-                        class="w-100 rounded-3" style="max-width: 450px;">
+                    <img src="assets/images/director/Woner Photo-1 (1).jpg.jpeg"
+                        alt="Rameshkumar Ramprasad Singh - Director" class="w-100 rounded-3" style="max-width: 450px;">
                 </div>
             </div>
             <div class="col-lg-7">
@@ -408,20 +410,22 @@
                         <div class="content-area">
                             <div class="icon"><img src="assets/images/service/icon/33.svg" alt=""></div>
                             <h3 class="heading-title"><a href="service.php">Labour Supply</a></h3>
-                            <p class="desc">Skilled and semi-skilled manpower supply for industrial projects including fitters, welders, and helpers.</p>
+                            <p class="desc">Skilled and semi-skilled manpower supply for industrial projects including
+                                fitters, welders, and helpers.</p>
                         </div>
-                        <div class="image-area"><img src="assets/images/service/35.webp" width="242" alt=""></div>
+                        <div class="image-area"><img src="assets/images/service/25.webp" width="242" alt=""></div>
                         <img src="assets/images/service/icon/shape.svg" alt="" class="shape">
                         <a href="service.php" class="over_link"></a>
                     </div>
                 </div>
                 <div class="col-lg-6" data-sal="slide-left" data-sal-duration="800" data-sal-delay="400">
                     <div class="service-wrapper-9 d-flex align-items-center justify-content-start">
-                        <div class="image-area"><img src="assets/images/service/36.webp" width="242" alt=""></div>
+                        <div class="image-area"><img src="assets/images/service/26.webp" width="242" alt=""></div>
                         <div class="content-area">
                             <div class="icon"><img src="assets/images/service/icon/34.svg" alt=""></div>
                             <h3 class="heading-title"><a href="service.php">HRT Fabrication</a></h3>
-                            <p class="desc">Specialized Heat Recovery and Transfer equipment fabrication for power and industrial plants.</p>
+                            <p class="desc">Specialized Heat Recovery and Transfer equipment fabrication for power and
+                                industrial plants.</p>
                         </div>
                         <img src="assets/images/service/icon/shape.svg" alt="" class="shape">
                         <a href="service.php" class="over_link"></a>

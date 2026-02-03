@@ -78,13 +78,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
         // Email content
         $mail->isHTML(true);
+        $mail->CharSet = 'UTF-8';
         
         // Set subject based on form type
         if ($formType === 'quote') {
-            $mail->Subject = "🔧 New Quote Request from $name - Techno Engineering";
+            $mail->Subject = "New Quote Request from $name - Techno Engineering";
             $formTitle = "Quote Request";
         } else {
-            $mail->Subject = "📧 New Contact Form Inquiry from $name - Techno Engineering";
+            $mail->Subject = "New Contact Form Inquiry from $name - Techno Engineering";
             $formTitle = "Contact Form Submission";
         }
         
@@ -92,6 +93,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Body = "
         <html>
         <head>
+            <meta charset='UTF-8'>
             <style>
                 body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
                 .container { max-width: 600px; margin: 0 auto; padding: 20px; }
@@ -110,23 +112,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 </div>
                 <div class='content'>
                     <div class='field'>
-                        <span class='label'>👤 Name:</span><br>
+                        <span class='label'>Name:</span><br>
                         $name
                     </div>
                     <div class='field'>
-                        <span class='label'>📱 Phone:</span><br>
+                        <span class='label'>Phone:</span><br>
                         " . ($phone ? $phone : 'Not provided') . "
                     </div>
                     <div class='field'>
-                        <span class='label'>✉️ Email:</span><br>
+                        <span class='label'>Email:</span><br>
                         <a href='mailto:$email'>$email</a>
                     </div>
                     <div class='field'>
-                        <span class='label'>🏢 Service Type:</span><br>
-                        $helpTypeStr
-                    </div>
-                    <div class='field'>
-                        <span class='label'>💬 Message:</span><br>
+                        <span class='label'>Message:</span><br>
                         " . nl2br($message) . "
                     </div>
                 </div>

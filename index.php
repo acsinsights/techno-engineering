@@ -82,7 +82,7 @@
                 <div class="col-xl-7">
                     <div class="about-image-area mr--50">
                         <img class="image-one" src="assets/images/about/01.webp" alt="solar solution">
-                        <img class="image-two" src="assets/images/about/10.webp" alt="solar solution">
+                        <img class="image-two" src="assets/images/director/6575b68a57.jpg" alt="solar solution">
                         <div class="floating-area images-left-right-float" data-parallax='{"x": -30, "y": 0}'>
                             <div class="image">
                                 <img src="assets/images/about/03.webp" alt="solar solution">
