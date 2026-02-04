@@ -470,7 +470,7 @@
                     <div class="working-process-wrapper2">
                         <div class="wrapper-inner mid">
                             <div class="image-area">
-                                <a href="working-process.html"><img src="assets/images/working-process/05.webp"
+                                <a href="working-process.html"><img src="assets/images/workerimg/eee156b11e.jpg"
                                         alt=""></a>
                                 <div class="tag">Step-2</div>
                             </div>

@@ -21,177 +21,177 @@
 
 <!-- Custom Styles for Zig-Zag Services -->
 <style>
-    .service-zigzag-section {
-        padding: 80px 0;
-    }
+.service-zigzag-section {
+    padding: 80px 0;
+}
 
-    .service-zigzag-section:nth-child(odd) {
-        background: #fff;
-    }
+.service-zigzag-section:nth-child(odd) {
+    background: #fff;
+}
 
-    .service-zigzag-section:nth-child(even) {
-        background: #f8f9fa;
-    }
+.service-zigzag-section:nth-child(even) {
+    background: #f8f9fa;
+}
 
+.service-zigzag-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 30px;
+}
+
+.service-zigzag-content .service-number {
+    font-size: 60px;
+    font-weight: 700;
+    color: rgba(243, 117, 56, 0.15);
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.service-zigzag-content .service-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.service-zigzag-content .service-title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 60px;
+    height: 3px;
+    background: #ed3237;
+    border-radius: 2px;
+}
+
+.service-zigzag-content .service-desc {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #666;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.service-zigzag-content .service-features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 25px 0;
+}
+
+.service-zigzag-content .service-features li {
+    padding: 8px 0;
+    color: #555;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.service-zigzag-content .service-features li i {
+    color: #ed3237;
+    margin-right: 12px;
+    font-size: 14px;
+}
+
+.service-zigzag-image {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+}
+
+.service-zigzag-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.service-zigzag-image:hover img {
+    transform: scale(1.05);
+}
+
+.service-zigzag-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(237, 50, 55, 0.1) 0%, transparent 50%);
+    z-index: 1;
+    pointer-events: none;
+}
+
+.service-btn-zigzag {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 30px;
+    background: #ed3237;
+    color: #fff;
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 30px rgba(237, 50, 55, 0.3);
+    width: fit-content;
+}
+
+.service-btn-zigzag:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 40px rgba(243, 117, 56, 0.4);
+    color: #fff;
+}
+
+.service-btn-zigzag i {
+    transition: transform 0.3s ease;
+}
+
+.service-btn-zigzag:hover i {
+    transform: translateX(5px);
+}
+
+@media (max-width: 991px) {
     .service-zigzag-content {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 100%;
-        padding: 30px;
-    }
-
-    .service-zigzag-content .service-number {
-        font-size: 60px;
-        font-weight: 700;
-        color: rgba(243, 117, 56, 0.15);
-        line-height: 1;
-        margin-bottom: 10px;
+        padding: 20px 0;
     }
 
     .service-zigzag-content .service-title {
-        font-size: 32px;
-        font-weight: 700;
-        color: #1a1a1a;
-        margin-bottom: 20px;
-        position: relative;
-    }
-
-    .service-zigzag-content .service-title::after {
-        content: '';
-        position: absolute;
-        left: 0;
-        bottom: -10px;
-        width: 60px;
-        height: 3px;
-        background: #ed3237;
-        border-radius: 2px;
-    }
-
-    .service-zigzag-content .service-desc {
-        font-size: 16px;
-        line-height: 1.8;
-        color: #666;
-        margin-top: 25px;
-        margin-bottom: 25px;
-    }
-
-    .service-zigzag-content .service-features {
-        list-style: none;
-        padding: 0;
-        margin: 0 0 25px 0;
-    }
-
-    .service-zigzag-content .service-features li {
-        padding: 8px 0;
-        color: #555;
-        font-size: 15px;
-        display: flex;
-        align-items: center;
-    }
-
-    .service-zigzag-content .service-features li i {
-        color: #ed3237;
-        margin-right: 12px;
-        font-size: 14px;
-    }
-
-    .service-zigzag-image {
-        position: relative;
-        overflow: hidden;
-        border-radius: 10px;
-        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+        font-size: 26px;
     }
 
     .service-zigzag-image img {
+        height: 300px;
+    }
+
+    /* Mobile - Image on top, Content below */
+    .service-zigzag-section .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service-zigzag-section .row>div {
         width: 100%;
-        height: 400px;
-        object-fit: cover;
-        transition: transform 0.5s ease;
+        max-width: 100%;
     }
 
-    .service-zigzag-image:hover img {
-        transform: scale(1.05);
+    .service-zigzag-section .row>div:has(.service-zigzag-image) {
+        order: -1 !important;
     }
 
-    .service-zigzag-image::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: linear-gradient(135deg, rgba(237, 50, 55, 0.1) 0%, transparent 50%);
-        z-index: 1;
-        pointer-events: none;
+    /* Alternative for all sections - force image column first */
+    .service-zigzag-section .col-image-mobile {
+        order: -1 !important;
     }
 
-    .service-btn-zigzag {
-        display: inline-flex;
-        align-items: center;
-        gap: 10px;
-        padding: 14px 30px;
-        background: #ed3237;
-        color: #fff;
-        border-radius: 50px;
-        font-weight: 600;
-        text-decoration: none;
-        transition: all 0.3s ease;
-        box-shadow: 0 10px 30px rgba(237, 50, 55, 0.3);
-        width: fit-content;
+    .service-zigzag-section .col-content-mobile {
+        order: 1 !important;
     }
-
-    .service-btn-zigzag:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 15px 40px rgba(243, 117, 56, 0.4);
-        color: #fff;
-    }
-
-    .service-btn-zigzag i {
-        transition: transform 0.3s ease;
-    }
-
-    .service-btn-zigzag:hover i {
-        transform: translateX(5px);
-    }
-
-    @media (max-width: 991px) {
-        .service-zigzag-content {
-            padding: 20px 0;
-        }
-
-        .service-zigzag-content .service-title {
-            font-size: 26px;
-        }
-
-        .service-zigzag-image img {
-            height: 300px;
-        }
-
-        /* Mobile - Image on top, Content below */
-        .service-zigzag-section .row {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .service-zigzag-section .row>div {
-            width: 100%;
-            max-width: 100%;
-        }
-
-        .service-zigzag-section .row>div:has(.service-zigzag-image) {
-            order: -1 !important;
-        }
-
-        /* Alternative for all sections - force image column first */
-        .service-zigzag-section .col-image-mobile {
-            order: -1 !important;
-        }
-
-        .service-zigzag-section .col-content-mobile {
-            order: 1 !important;
-        }
-    }
+}
 </style>
 
 <!-- Services Zig-Zag Section Start -->
@@ -226,7 +226,7 @@
                 </div>
                 <div class="col-lg-6 col-image-mobile" data-sal="slide-left" data-sal-duration="800">
                     <div class="service-zigzag-image">
-                        <img src="assets/images/service/01.webp" alt="Fabrication & Erection">
+                        <img src="assets/images/workerimg/e4a4348f76.jpg" alt="Fabrication & Erection">
                     </div>
                 </div>
             </div>
@@ -259,7 +259,7 @@
                 </div>
                 <div class="col-lg-6 order-lg-1 col-image-mobile" data-sal="slide-right" data-sal-duration="800">
                     <div class="service-zigzag-image">
-                        <img src="assets/images/service/02.webp" alt="Mechanical Maintenance">
+                        <img src="assets/images/workerimg/751d9fd228.jpg" alt="Mechanical Maintenance">
                     </div>
                 </div>
             </div>
@@ -292,7 +292,7 @@
                 </div>
                 <div class="col-lg-6 col-image-mobile" data-sal="slide-left" data-sal-duration="800">
                     <div class="service-zigzag-image">
-                        <img src="assets/images/service/03.webp" alt="Roofing & Cladding">
+                        <img src="assets/images/workerimg/6f4f32ccb0.jpg" alt=" Roofing & Cladding">
                     </div>
                 </div>
             </div>
@@ -325,7 +325,7 @@
                 </div>
                 <div class="col-lg-6 order-lg-1 col-image-mobile" data-sal="slide-right" data-sal-duration="800">
                     <div class="service-zigzag-image">
-                        <img src="assets/images/service/04.webp" alt="Blasting & Painting">
+                        <img src="assets/images/workerimg/9e625892cd.jpg" alt=" Blasting & Painting">
                     </div>
                 </div>
             </div>
@@ -358,7 +358,7 @@
                 </div>
                 <div class="col-lg-6 col-image-mobile" data-sal="slide-left" data-sal-duration="800">
                     <div class="service-zigzag-image">
-                        <img src="assets/images/service/05.webp" alt="Labour Supply">
+                        <img src="assets/images/workerimg/e6c581c784.jpg" alt="Labour Supply">
                     </div>
                 </div>
             </div>
@@ -456,7 +456,8 @@
                                     <input type="email" id="quote-email" name="contact-email" required>
                                 </div>
                                 <div class="single-wrapper">
-                                    <label for="quote-message"><i class="fa-regular fa-message"></i> Project Details</label>
+                                    <label for="quote-message"><i class="fa-regular fa-message"></i> Project
+                                        Details</label>
                                     <textarea name="contact-message" id="quote-message" required></textarea>
                                 </div>
                                 <div class="single-wrapper">

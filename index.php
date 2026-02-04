@@ -81,11 +81,11 @@
             <div class="row align-items-center">
                 <div class="col-xl-7">
                     <div class="about-image-area mr--50">
-                        <img class="image-one" src="assets/images/about/01.webp" alt="solar solution">
+                        <img class="image-one" src="assets/images/workerimg/0e900622a1.jpg" alt="solar solution">
                         <img class="image-two" src="assets/images/director/6575b68a57.jpg" alt="solar solution">
                         <div class="floating-area images-left-right-float" data-parallax='{"x": -30, "y": 0}'>
                             <div class="image">
-                                <img src="assets/images/about/03.webp" alt="solar solution">
+                                <img src="assets/images/workerimg/4f5f2d8eb1.jpg" alt="solar solution">
                             </div>
                         </div>
                         <div class="about-card" data-parallax='{"x": 0, "y": -50}'>
@@ -486,7 +486,7 @@
                 <div class="col-xl-7 order-change-lg image">
                     <div class="working-process-image">
                         <img src="assets/images/working-process/01.webp" width="649" alt="">
-                        <img src="assets/images/working-process/02.webp" width="482" alt="" class="floating-img"
+                        <img src="assets/images/workerimg/e91ee36ed0.jpg" width="482" alt="" class="floating-img"
                             data-parallax='{"x": 0, "y": 60}'>
                     </div>
                 </div>
@@ -513,7 +513,7 @@
                         <div class="project-wrapper">
                             <div class="image-area">
                                 <a href="portfolio-details.html">
-                                    <img src="assets/images/project/01.webp" alt="">
+                                    <img src="assets/images/workerimg/e91ee36ed0.jpg" alt="">
                                 </a>
                             </div>
                             <div class="content-area">
@@ -528,7 +528,7 @@
                         <div class="project-wrapper">
                             <div class="image-area">
                                 <a href="portfolio-details.html">
-                                    <img src="assets/images/project/02.webp" alt="">
+                                    <img src="assets/images/workerimg/fdf582f7ca.jpg" alt="">
                                 </a>
                             </div>
                             <div class="content-area">
@@ -543,7 +543,7 @@
                         <div class="project-wrapper">
                             <div class="image-area">
                                 <a href="portfolio-details.html">
-                                    <img src="assets/images/project/03.webp" alt="">
+                                    <img src="assets/images/workerimg/22a3c4d4dd.jpg" alt="">
                                 </a>
                             </div>
                             <div class="content-area">
@@ -558,7 +558,7 @@
                         <div class="project-wrapper">
                             <div class="image-area">
                                 <a href="portfolio-details.html">
-                                    <img src="assets/images/project/01.webp" alt="">
+                                    <img src="assets/images/workerimg/f8d9fe4522.jpg" alt="">
                                 </a>
                             </div>
                             <div class="content-area">
@@ -573,7 +573,7 @@
                         <div class="project-wrapper">
                             <div class="image-area">
                                 <a href="portfolio-details.html">
-                                    <img src="assets/images/project/02.webp" alt="">
+                                    <img src="assets/images/workerimg/702380f1c6.jpg" alt="">
                                 </a>
                             </div>
                             <div class="content-area">
@@ -588,7 +588,7 @@
                         <div class="project-wrapper">
                             <div class="image-area">
                                 <a href="portfolio-details.html">
-                                    <img src="assets/images/project/03.webp" alt="">
+                                    <img src="assets/images/workerimg/eee156b11e.jpg" alt="">
                                 </a>
                             </div>
                             <div class="content-area">
@@ -627,7 +627,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-7" data-sal="slide-up" data-sal-duration="800" data-sal-delay="100">
                     <div class="image-area">
-                        <img src="assets/images/banner/09.webp" width="715" alt="">
+                        <img src="assets/images/workerimg/702380f1c6.jpg" width="715" alt="">
                     </div>
                 </div>
                 <div class="col-lg-5">
@@ -695,7 +695,7 @@
                     <div class="col-lg-3 col-md-3 col-sm-6 col-6">
                         <a href="assets/images/gallery/grid/03.webp" class="gallery-single">
                             <div class="image-gallery">
-                                <img class="w-100" src="assets/images/gallery/grid/03.webp" alt="Gallery Images">
+                                <img class="w-100" src="assets/images/workerimg/ef9454134f.jpg" alt="Gallery Images">
                             </div>
                             <div class="item-overlay"><span><i class="fa-solid fa-plus"></i></span></div>
                         </a>
@@ -703,7 +703,7 @@
                     <div class="col-lg-3 col-md-3 col-sm-6 col-6">
                         <a href="assets/images/gallery/grid/02.webp" class="gallery-single">
                             <div class="image-gallery">
-                                <img class="w-100" src="assets/images/gallery/grid/02.webp" alt="Gallery Images">
+                                <img class="w-100" src="assets/images/workerimg/a6f6ef775c.jpg" alt="Gallery Images">
                             </div>
                             <div class="item-overlay"><span><i class="fa-solid fa-plus"></i></span></div>
                         </a>
@@ -711,7 +711,7 @@
                     <div class="col-lg-6 col-md-6 col-sm-8 col-8">
                         <a href="assets/images/gallery/grid/01.webp" class="gallery-single">
                             <div class="image-gallery">
-                                <img class="w-100" src="assets/images/gallery/grid/01.webp" alt="Gallery Images">
+                                <img class="w-100" src="assets/images/workerimg/5609951a03.jpg" alt="Gallery Images">
                             </div>
                             <div class="item-overlay"><span><i class="fa-solid fa-plus"></i></span></div>
                         </a>
@@ -719,7 +719,7 @@
                     <div class="col-lg-3 col-md-3 col-sm-4 col-4">
                         <a href="assets/images/gallery/grid/04.webp" class="gallery-single">
                             <div class="image-gallery">
-                                <img class="w-100" src="assets/images/gallery/grid/04.webp" alt="Gallery Images">
+                                <img class="w-100" src="assets/images/workerimg/70e573dcb6.jpg" alt="Gallery Images">
                             </div>
                             <div class="item-overlay"><span><i class="fa-solid fa-plus"></i></span></div>
                         </a>
@@ -727,7 +727,7 @@
                     <div class="col-lg-6 col-md-6 col-sm-8 col-8">
                         <a href="assets/images/gallery/grid/05.webp" class="gallery-single">
                             <div class="image-gallery">
-                                <img class="w-100" src="assets/images/gallery/grid/05.webp" alt="Gallery Images">
+                                <img class="w-100" src="assets/images/workerimg/e53c72c749.jpg" alt=" Gallery Images">
                             </div>
                             <div class="item-overlay"><span><i class="fa-solid fa-plus"></i></span></div>
                         </a>
@@ -735,7 +735,7 @@
                     <div class="col-lg-3 col-md-3 col-sm-4 col-4">
                         <a href="assets/images/gallery/grid/06.webp" class="gallery-single">
                             <div class="image-gallery">
-                                <img class="w-100" src="assets/images/gallery/grid/06.webp" alt="Gallery Images">
+                                <img class="w-100" src="assets/images/workerimg/005de26e41.jpg" alt="Gallery Images">
                             </div>
                             <div class="item-overlay"><span><i class="fa-solid fa-plus"></i></span></div>
                         </a>
