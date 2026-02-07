@@ -26,17 +26,17 @@
             <div class="col-lg-9">
                 <div class="privacy-wrapper-area">
 
-                    <h2 class="title mt--30">Welcome to Techno Engineering Privacy Policy</h2>
+                    <h2 class="title mt--30">Welcome to Anand Infratech Privacy Policy</h2>
                     <ul>
-                        <li>Welcome to Techno Engineering Pvt. Ltd. We respect your privacy and are committed to protecting your personal information collected through our website and services.</li>
-                        <li>This Privacy Policy explains how we collect, use, store, and protect your data when you interact with Techno Engineering.</li>
-                        <li><strong>Last Updated:</strong> February 3, 2026. This policy may be updated periodically to reflect changes in our practices.</li>
+                        <li>Welcome to Anand Infratech! We respect your privacy and are committed to protecting your personal information collected through our website and services.</li>
+                        <li>This Privacy Policy explains how we collect, use, store, and protect your data when you interact with Anand Infratech.</li>
+                        <li><strong>Last Updated:</strong> February 6, 2026. This policy may be updated periodically to reflect changes in our practices.</li>
                     </ul>
 
                     <h2 class="title mt--30">Information We Collect</h2>
                     <ol>
                         <li>Personal identification details such as your name, email address, phone number, company name, and location.</li>
-                        <li>Project-related information including industrial requirements, fabrication specifications, timelines, budgets, or site details shared with us.</li>
+                        <li>Project-related information including construction requirements, building specifications, timelines, budgets, or site details shared with us.</li>
                         <li>Commercial or billing information when requesting quotations or services.</li>
                         <li>Technical data such as IP address, browser type, device information, and site usage behavior.</li>
                     </ol>
@@ -51,7 +51,7 @@
 
                     <h2 class="title mt--30">How We Use Your Information</h2>
                     <ol>
-                        <li>To evaluate project requirements and provide industrial fabrication & engineering services.</li>
+                        <li>To evaluate project requirements and provide construction, infrastructure & building services.</li>
                         <li>To communicate with you regarding proposals, timelines, updates, and support.</li>
                         <li>To improve our website performance, services, and user experience.</li>
                         <li>To comply with legal, regulatory, and contractual obligations.</li>
@@ -59,7 +59,7 @@
 
                     <h2 class="title mt--30">Cookies & Tracking Technologies</h2>
                     <ul>
-                        <li>Techno Engineering uses cookies to store preferences and analyze website traffic.</li>
+                        <li>Anand Infratech uses cookies to store preferences and analyze website traffic.</li>
                         <li>You may disable cookies through your browser settings, though some features may not function properly.</li>
                         <li>Third-party analytics services may collect anonymous usage data under their own privacy policies.</li>
                     </ul>
@@ -68,7 +68,7 @@
                     <ol>
                         <li>We do not sell or rent your personal data to third parties.</li>
                         <li>Limited information may be shared with trusted partners strictly for operational purposes.</li>
-                        <li>We may disclose information if required by law or to protect Techno Engineering's legal rights and safety.</li>
+                        <li>We may disclose information if required by law or to protect Anand Infratech's legal rights and safety.</li>
                     </ol>
 
                     <h2 class="title mt--30">Data Protection & Security</h2>
@@ -82,13 +82,13 @@
                     <ol>
                         <li>You may request access, correction, or deletion of your personal information.</li>
                         <li>You can opt out of marketing or promotional communications at any time.</li>
-                        <li>Requests can be submitted via email at: techoeng70@yahoo.in</li>
+                        <li>Requests can be submitted via email at: info@anandinfratech.com</li>
                     </ol>
 
                     <h2 class="title mt--30">External Website Links</h2>
                     <ul>
                         <li>Our website may include links to third-party websites.</li>
-                        <li>Techno Engineering is not responsible for the privacy policies or content of external sites.</li>
+                        <li>Anand Infratech is not responsible for the privacy policies or content of external sites.</li>
                     </ul>
 
                     <h2 class="title mt--30">Children's Information</h2>
@@ -106,9 +106,9 @@
                     <h2 class="title mt--30">Contact Information</h2>
                     <ol>
                         <li>If you have any questions regarding this Privacy Policy, please contact us:</li>
-                        <li>Phone: (+91) 98337 71515</li>
-                        <li>Email: techoeng70@yahoo.in</li>
-                        <li>Office Address: Room No.B-003, Plot No. 39,45,46,47, Neel Residency Phase-I, Sector-03, New Panvel - 410206</li>
+                        <li>Phone: +91 98765 43210</li>
+                        <li>Email: info@anandinfratech.com</li>
+                        <li>Office Address: Ahmedabad, Gujarat, India</li>
                     </ol>
 
                     <div class="button-wrapper mt--40">

@@ -5,38 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Anand Infratech - Leading Infrastructure Company specializing in Bungalows, Buildings, Commercial & Residential Construction. Quality construction with timely delivery.">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.svg">
+    <title>Anand Infratech | Premium Infrastructure & Construction Company</title>
 
-    <!-- Primary Meta Tags -->
-    <title>Techno Engineering Pvt. Ltd. | Fabrication & Erection | Industrial Services</title>
-    <meta name="title" content="Techno Engineering Pvt. Ltd. | Fabrication & Erection | Industrial Services">
-    <meta name="description" content="Techno Engineering Pvt. Ltd. - 30+ years of excellence in Fabrication & Erection of Power Plants, Steel Plants, Refineries and Nuclear Plants. Expert Piping, Mechanical Maintenance, Roofing, Cladding, Blasting & Painting Services across India.">
-    <meta name="keywords" content="Fabrication, Erection, Power Plant, Steel Plant, Refinery, Nuclear Plant, Mechanical Maintenance, Roofing, Cladding, Blasting, Painting, Industrial Services, Techno Engineering, Navi Mumbai, India">
-    <meta name="author" content="Techno Engineering Pvt. Ltd.">
-    <meta name="robots" content="index, follow">
-
-    <!-- Open Graph / Facebook / WhatsApp -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://technoengineering.acsinsights.in/">
-    <meta property="og:title" content="Techno Engineering Pvt. Ltd. | Industrial Fabrication & Erection">
-    <meta property="og:description" content="30+ years of excellence in Fabrication & Erection of Power Plants, Steel Plants, Refineries. Expert Mechanical Maintenance, Roofing, Cladding & Painting Services.">
-    <meta property="og:image" content="https://technoengineering.acsinsights.in/assets/images/logo/TECHNOlogo.svg">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:site_name" content="Techno Engineering Pvt. Ltd.">
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://technoengineering.acsinsights.in/">
-    <meta property="twitter:title" content="Techno Engineering Pvt. Ltd. | Industrial Fabrication & Erection">
-    <meta property="twitter:description" content="30+ years of excellence in Fabrication & Erection of Power Plants, Steel Plants, Refineries. Expert Mechanical Maintenance, Roofing, Cladding & Painting Services.">
-    <meta property="twitter:image" content="https://technoengineering.acsinsights.in/assets/images/logo/TECHNOlogo.svg">
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/svg+xml" href="assets/images/logo/TECHNOlogo.svg">
-    <link rel="icon" type="image/svg+xml" href="assets/images/logo/TECHNOlogo.svg">
-    <link rel="apple-touch-icon" href="assets/images/logo/TECHNOlogo.svg">
-
-    <!-- CSS Files -->
+    <!-- fontawesome css -->
     <link rel="preload" href="assets/css/plugins/fontawesome.css" as="style" onload="this.rel='stylesheet'">
     <link rel="preload" href="assets/css/plugins/swiper.css" as="style" onload="this.rel='stylesheet'">
     <link rel="preload" href="assets/css/plugins/aos.css" as="style" onload="this.rel='stylesheet'">
@@ -46,333 +21,296 @@
     <link rel="preload" href="assets/css/plugins/hover-revel.css" as="style" onload="this.rel='stylesheet'">
     <link rel="stylesheet" href="assets/css/plugins/timepickers.min.css">
     <link rel="stylesheet" href="assets/css/plugins/odometer.css">
+    <!-- bootstrap css -->
     <link rel="preload" href="assets/css/vendor/bootstrap.min.css" as="style" onload="this.rel='stylesheet'">
+    <!-- main css -->
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <!-- Custom Header Styles - Compact Like ConstX -->
+    <!-- Custom Header Fixes -->
     <style>
-        /* Compact Top Bar */
-        .header-one .header-top {
-            padding: 8px 0;
-            background: #1a1a2e;
+    /* FORCE LOGO VISIBILITY - Remove all decorative backgrounds */
+    .header-main-2 .header-mid-one-wrapper .logo-area::before,
+    .header-main-2 .header-mid-one-wrapper .logo-area::after,
+    .header-mid-one-wrapper .logo-area::before,
+    .header-mid-one-wrapper .logo-area::after {
+        display: none !important;
+        content: none !important;
+        background: none !important;
+        width: 0 !important;
+        height: 0 !important;
+    }
+
+    .header-mid-one-wrapper .logo-area,
+    .header-main-2 .header-mid-one-wrapper .logo-area {
+        background: transparent !important;
+        clip-path: none !important;
+        -webkit-clip-path: none !important;
+    }
+
+    .header-mid-one-wrapper .logo-area img,
+    .header-main-2 .header-mid-one-wrapper .log200pxo-area img {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+        position: relative !important;
+        z-index: 9999 !important;
+        height: auto !important;
+    }
+
+    /* Navbar Container - same width as body content */
+    .header-main .row,
+    .header-top .row {
+        max-width: 1320px;
+        margin: 0 auto;
+        padding: 0 0px;
+    }
+
+    .header-mid-one-wrapper.wrapper-two {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center;
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+
+    .header-mid-one-wrapper.wrapper-two>.left {
+        order: 1;
+    }
+
+    .header-mid-one-wrapper.wrapper-two>.header-right {
+        order: 2;
+    }
+
+    /* Logo on left */
+    .header-mid-one-wrapper .left {
+        flex: 0 0 240px;
+        display: flex !important;
+        visibility: visible !important;
+        min-width: 220px;
+    }
+
+    .header-mid-one-wrapper .left .logo-area {
+        display: block !important;
+        visibility: visible !important;
+        width: 220px;
+        background: transparent !important;
+        clip-path: none !important;
+        -webkit-clip-path: none !important;
+    }
+
+    .header-mid-one-wrapper .left .logo-area img {
+        position: relative !important;
+        z-index: 100 !important;
+    }
+
+    .header-mid-one-wrapper .logo-area::after,
+    .header-mid-one-wrapper .logo-area::before {
+        display: none !important;
+        content: none !important;
+    }
+
+    /* Nav + Button on right */
+    .header-mid-one-wrapper .header-right {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .header-mid-one-wrapper .nav-area {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-area .mainmenu {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .mainmenu>li>a {
+        white-space: nowrap !important;
+        padding: 10px 18px;
+        font-weight: 500;
+    }
+
+    .cart-search-area {
+        display: none !important;
+    }
+
+    /* Desktop Logo Size */
+    .logo-area {
+        display: block !important;
+        visibility: visible !important;
+    }
+
+    .logo-area a {
+        display: block !important;
+    }
+
+    .logo-area img {
+        height: auto;
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    /* Mobile Header Fixes */
+    @media (max-width: 991px) {
+        .header-top {
+            display: none !important;
         }
 
-        .header-top-wrapper {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
+        .header-main {
+            padding: 10px 15px;
         }
 
-        .header-top-wrapper .left {
-            display: flex;
-            align-items: center;
-            gap: 25px;
-        }
-
-        .header-top-wrapper .single-component.info-con {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .header-top-wrapper .single-component.info-con .icon {
-            font-size: 14px;
-        }
-
-        .header-top-wrapper .single-component.info-con .info span {
-            font-size: 13px;
-            white-space: nowrap;
-        }
-
-        /* Compact Main Header */
-        .header-one .header-main {
-            padding: 0;
-            background: #fff;
-        }
-
-        .header-mid-one-wrapper {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 2px 0 !important;
-            min-height: 70px;
-        }
-
-        /* Logo Size - Left Side */
-        .logo-area {
-            flex-shrink: 0;
+        .header-mid-one-wrapper .left {
+            flex: 1;
         }
 
         .logo-area img {
-            max-width: 220px !important;
-            width: auto !important;
+            max-width: 150px !important;
+            height: auto;
         }
 
-        /* Nav + Header Right Container - All Right Side */
-        .header-right-section {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            margin-left: auto;
-        }
-
-        /* Navigation - Right Aligned */
         .nav-area {
-            display: flex;
-            align-items: center;
+            display: none !important;
         }
 
-        .nav-area .mainmenu {
-            display: flex;
-            align-items: center;
-            gap: 0;
-            margin: 0;
-            padding: 0;
-            list-style: none;
+        .header-right .tmp-btn {
+            display: none;
         }
 
-        .nav-area .mainmenu>li>a {
-            padding: 12px 20px;
-            font-size: 15px;
-            font-weight: 500;
-            white-space: nowrap;
+        #menu-btn {
+            display: flex !important;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .logo-area img {
+            max-width: 130px !important;
         }
 
-        /* Header Right - Contact Button */
-        .header-right {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            flex-shrink: 0;
-            margin-left: 10px;
+        .header-main {
+            padding: 8px 10px;
         }
-
-        .cart-search-area {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .header-right .tmp-btn.btn-sm {
-            padding: 10px 20px;
-            font-size: 14px;
-        }
-
-        /* Sticky Header Compact */
-        .header--sticky.sticky {
-            padding: 0;
-        }
-
-        .header--sticky.sticky .header-mid-one-wrapper {
-            padding: 0px 0 !important;
-        }
-
-        /* Footer Logo - Match Template Size */
-        .tmp-footer-area .single-footer-inner.logo-area .logo img {
-            max-height: 80px !important;
-            max-width: 220px !important;
-            width: auto !important;
-        }
-
-        /* Project Tag Mobile Responsive */
-        @media (max-width: 576px) {
-            .project-wrapper .content-area .tag {
-                padding: 5px 12px;
-                font-size: 12px;
-                margin-bottom: 8px;
-            }
-
-            .project-wrapper .content-area .title {
-                font-size: 16px;
-                line-height: 22px;
-                margin-bottom: 5px;
-            }
-
-            .project-wrapper .content-area {
-                padding: 15px;
-            }
-        }
-
-        /* Mobile Header Logo Fix */
-        @media (max-width: 768px) {
-            .logo-area img {
-                max-width: 140px !important;
-                height: auto !important;
-            }
-
-            .header-mid-one-wrapper {
-                min-height: 60px;
-                padding: 5px 0 !important;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .logo-area img {
-                max-width: 150px !important;
-                height: auto !important;
-            }
-
-            .header-mid-one-wrapper {
-                min-height: 55px;
-            }
-        }
-
-        /* Override Primary Color to Red #ed3237 */
-        :root {
-            --color-primary: #ed3237 !important;
-            --color-primary-2: #ed3237 !important;
-            --color-secondary: #ed3237 !important;
-            --primary-600: #ed3237 !important;
-            --primary-700: #ed3237 !important;
-        }
-
-        .tmp-btn.btn-primary {
-            background: #ed3237 !important;
-        }
-
-        .tmp-btn.btn-primary::after {
-            background: #c9282d !important;
-        }
-
-        .tmp-btn.btn-border:hover {
-            background: #ed3237 !important;
-            border-color: #ed3237 !important;
-        }
-
-        .cta-button-area .tmp-btn.bg-white {
-            color: #ed3237 !important;
-        }
-
-        .cta-button-area .tmp-btn.bg-white:hover {
-            background: #ed3237 !important;
-            color: #fff !important;
-        }
-
-        /* CTA Button Hover Style */
-        .cta-button-area .tmp-btn:hover {
-            background: #fff !important;
-            color: #ed3237 !important;
-            border-color: #fff !important;
-        }
-
-        /* Footer Logo Mobile Responsive - Match Header Size */
-        @media (max-width: 768px) {
-            .tmp-footer-area .footer-widget .logo img {
-                width: 140px !important;
-                height: auto !important;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .tmp-footer-area .footer-widget .logo img {
-                width: 120px !important;
-                height: auto !important;
-            }
-        }
+    }
     </style>
 </head>
 
-<body class="home-one">
+<body>
 
     <!-- Header Start -->
-    <header class="header-one header--sticky header-sticky-smooth globalNav noDropdownTransition">
-        <!-- Top Bar - Compact Single Line -->
+    <header class="header-one header-seven inner header--sticky header-sticky-smooth">
+        <!-- header top -->
         <div class="header-top overflow-visible">
-            <div class="container-3">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="header-top-wrapper">
-                            <!-- Left - Contact Info -->
-                            <div class="left">
-                                <div class="single-component info-con">
-                                    <div class="icon"><i class="fal fa-clock"></i></div>
-                                    <div class="info"><span>Mon - Sat (9:00 - 18:00)</span></div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="header-top-wrapper">
+                        <!-- left area header top -->
+                        <div class="left">
+                            <!-- single map area -->
+                            <div class="single-component info-con">
+                                <div class="icon">
+                                    <i class="fal fa-clock"></i>
                                 </div>
-                                <div class="single-component info-con">
-                                    <div class="icon"><i class="fal fa-phone"></i></div>
-                                    <div class="info"><span><a href="tel:+919833771515">(+91) 98337 71515</a></span>
-                                    </div>
-                                </div>
-                                <div class="single-component info-con">
-                                    <div class="icon"><i class="fal fa-map-marker-alt"></i></div>
-                                    <div class="info"><span>Room No.B-003, Neel Residency Phase-I, New Panvel -
-                                            410206</span></div>
+                                <div class="info">
+                                    <span>Mon - Sat (9:00 - 18:00)</span>
                                 </div>
                             </div>
-                            <!-- Right - Social Icons -->
-                            <div class="right">
-                                <ul class="social-wrapper-1 hover-bg-white ml_-10">
-                                    <li class="single"><a target="_blank" href="https://www.facebook.com/"><i
-                                                class="fab fa-facebook-f"></i></a></li>
-                                    <li class="single"><a target="_blank" href="https://x.com/"><i
-                                                class="fab fa-twitter"></i></a></li>
-                                    <li class="single"><a target="_blank" href="https://www.instagram.com/"><i
-                                                class="fab fa-instagram"></i></a></li>
-                                    <li class="single"><a target="_blank" href="https://www.linkedin.com/"><i
-                                                class="fab fa-linkedin-in"></i></a></li>
-                                </ul>
+                            <!-- single map area -->
+                            <div class="single-component info-con">
+                                <div class="icon">
+                                    <i class="fal fa-phone"></i>
+                                </div>
+                                <div class="info">
+                                    <span><a href="tel:+919876543210">+91 98765 43210</a></span>
+                                </div>
                             </div>
+                            <!-- single map area -->
+                            <div class="single-component info-con">
+                                <div class="icon">
+                                    <i class="fal fa-map-marker-alt"></i>
+                                </div>
+                                <div class="info">
+                                    <span>Ahmedabad, Gujarat, India</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- right area strat -->
+                        <div class="right">
+                            <ul class="social-wrapper-1 hover-bg-white">
+                                <li class="single"><a target="_blank" href="https://www.facebook.com/"><i
+                                            class="fab fa-facebook-f"></i></a></li>
+                                <li class="single"><a target="_blank" href="https://www.instagram.com/"><i
+                                            class="fab fa-instagram"></i></a></li>
+                                <li class="single"><a target="_blank" href="https://www.linkedin.com/"><i
+                                            class="fab fa-linkedin-in"></i></a></li>
+                                <li class="single"><a target="_blank" href="https://wa.me/919876543210"><i
+                                            class="fab fa-whatsapp"></i></a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <!-- Main Header - Logo, Nav, Button in One Line -->
-        <div class="header-main">
-            <div class="container-3">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="header-mid-one-wrapper">
-                            <!-- Logo - Left Side -->
-                            <div class="logo-area">
-                                <a href="index.php">
-                                    <img src="assets/images/logo/TECHNOlogo.svg" alt="Techno Engineering Logo">
+        <!-- header bottom -->
+        <div class="header-main header-main-2">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="header-mid-one-wrapper wrapper-two">
+                        <div class="left d-flex align-items-center">
+                            <div class="logo-area shape-none"
+                                style="display: block !important; visibility: visible !important;">
+                                <a href="index.php" style="display: inline-block !important;">
+                                    <img src="assets/images/logo/Anand-InfraTech-Logo.png" alt="Anand Infratech Logo"
+                                        style="width: 220px; height: auto; display: block !important; visibility: visible !important; opacity: 1 !important;">
                                 </a>
                             </div>
-
-                            <!-- Right Section - Nav + Contact Button -->
-                            <div class="header-right-section">
-                                <!-- Navigation Menu -->
-                                <div class="nav-area">
-                                    <ul class="mainmenu">
-                                        <li class="main-nav">
-                                            <a href="index.php">Home</a>
-                                        </li>
-                                        <li class="main-nav">
-                                            <a href="about.php">About Us</a>
-                                        </li>
-                                        <li class="main-nav has-dropdown has-menu-child-item">
-                                            <a href="service.php">Services <i
-                                                    class="fa-regular fa-chevron-down"></i></a>
-                                            <ul class="submenu parent-nav">
-                                                <li><a href="service.php#fabrication-erection">Fabrication &
-                                                        Erection</a></li>
-                                                <li><a href="service.php#mechanical-maintenance">Mechanical
-                                                        Maintenance</a></li>
-                                                <li><a href="service.php#roofing-cladding">Roofing & Cladding</a></li>
-                                                <li><a href="service.php#blasting-painting">Blasting & Painting</a></li>
-                                                <li><a href="service.php#labour-supply">Labour Supply</a></li>
-                                                <li><a href="service.php#mechanical-fabrication-hrt">Mechanical
-                                                        Fabrication HRT</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <!-- Contact Button -->
-                                <div class="header-right">
-                                    <div class="single-component">
-                                        <a href="contact.php" class="tmp-btn btn-primary button-flip btn-sm">
-                                            <span data-text="Contact Us">Contact Us</span>
-                                        </a>
-                                        <div class="menu-area d-block d-xl-none" id="menu-btn">
-                                            <button class="setting-btn">
-                                                <span class="bar bar1"></span>
-                                                <span class="bar bar2"></span>
-                                                <span class="bar bar1"></span>
-                                            </button>
-                                        </div>
+                        </div>
+                        <div class="header-right">
+                            <div class="nav-area">
+                                <ul class="mainmenu">
+                                    <li class="main-nav">
+                                        <a href="index.php">Home</a>
+                                    </li>
+                                    <li class="main-nav">
+                                        <a href="about.php">About Us</a>
+                                    </li>
+                                    <li class="main-nav has-dropdown has-menu-child-item project-a-after">
+                                        <a href="service.php">Services</a>
+                                        <ul class="submenu parent-nav">
+                                            <li><a href="service.php">All Services</a></li>
+                                            <li><a href="service.php#rcc-work">RCC Work</a></li>
+                                            <li><a href="service.php#brick-plaster-work">Brick Work & Plaster</a></li>
+                                            <li><a href="service.php#tiling-work">Tiling Work</a></li>
+                                            <li><a href="service.php#gypsum-painting">Gypsum, Painting & False
+                                                    Ceiling</a></li>
+                                            <li><a href="service.php#fabrication-wooden-work">Fabrication & Wooden
+                                                    Work</a></li>
+                                            <li><a href="service.php#plumbing-work">Plumbing</a></li>
+                                            <li><a href="service.php#electrical-work">Electrical</a></li>
+                                            <li><a href="service.php#mechanical-work">Mechanical</a></li>
+                                            <li><a href="service.php#structural-audit">Structural Audit & Repairs</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="single-component">
+                                <a href="contact.php" class="tmp-btn btn-primary button-flip btn-sm">
+                                    <span data-text="Contact Us">Contact Us</span>
+                                </a>
+                                <div class="menu-area d-block d-xl-none" id="menu-btn">
+                                    <div class="icon radius-small">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16"
+                                            viewbox="0 0 18 16" fill="none">
+                                            <rect width="18" height="2" fill="#0C0A0A"></rect>
+                                            <rect y="7" width="18" height="2" fill="#0C0A0A"></rect>
+                                            <rect y="14" width="18" height="2" fill="#0C0A0A"></rect>
+                                        </svg>
                                     </div>
                                 </div>
                             </div>

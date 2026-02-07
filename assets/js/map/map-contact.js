@@ -39,12 +39,12 @@
       [
         locationData(
           "assets/images/banner/contact.webp",
-          "101 E 129th St, East Chicago, IN 46312, US",
-          "1-333-345-6868",
-          "inversweb@gmail.com"
+          "Anand Infratech Pvt. Ltd., Ahmedabad, Gujarat, India",
+          "+91 98765 43210",
+          "info@anandinfratech.com"
         ),
-        40.709327,
-        -74.004815,
+        23.0225,
+        72.5714,
         1,
         "<div></div>",
       ],
@@ -189,7 +189,7 @@
     var map = new google.maps.Map(document.getElementById("map-contact"), {
       zoom: zoomLevel,
       scrollwheel: false,
-      center: new google.maps.LatLng(40.709295, -74.003099),
+      center: new google.maps.LatLng(23.0225, 72.5714),
       mapTypeId: google.maps.MapTypeId.ROADMAP,
       zoomControl: true,
       zoomControlOptions: {

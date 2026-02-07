@@ -16014,7 +16014,7 @@ header.header-one .header-top-wrapper .right {
   position: relative;
 }
 .header-mid-one-wrapper .logo-area {
-  flex-basis: 22%;
+  /* flex-basis: 22%; */
   padding: 0px 0 0px;
   position: relative;
   z-index: 1;
@@ -17796,13 +17796,13 @@ header.header-seven .header-mid-one-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 80px;
+  padding: 0 0px;
 }
 header.header-seven .header-mid-one-wrapper .left .menu {
   margin-left: 100px;
 }
 header.header-seven .header-mid-one-wrapper .logo-area {
-  flex-basis: 20%;
+  /* flex-basis: 20%; */
   padding: 16px 0 21px;
   position: relative;
   z-index: 1;
@@ -48734,6 +48734,7 @@ ul.mega-menu-item.parent-nav {
   }
   .tmp-counter-area.inner .counter-inner .content .title {
     font-size: 48px;
+    white-space: nowrap;
   }
   .tmp-bread-crumb-area .breadcrumb-inner .watermark {
     font-size: 42px;
